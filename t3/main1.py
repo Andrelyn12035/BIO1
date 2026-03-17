@@ -3,7 +3,6 @@ import matplotlib.pyplot as plt
 import numpy as np
 from matplotlib import cm
 from matplotlib.colors import LightSource
-
 import matplotlib.animation as animation
 
 LIMIT = 0.0001
