@@ -7,7 +7,7 @@ rng = np.random.default_rng()
 
 TAM_POBLACION = 100
 TOT_GENERACIONES = 200
-NC = 2
+NC = 10 #Entre mas grande los hijos seran menos parecidos a los padres, entre mas pequeño los hijos seran mas parecidos a los padres. influye en la diversidad de la poblacion, entre mas grande mas diversidad, entre mas pequeño menos diversidad
 NM = 20
 PROB_MUTACION = [0.01, 0.05, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8]
 PROB_CRUCE = [0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1.0]
@@ -117,10 +117,14 @@ def polinomial_mutation(subject, prob_mutacion):
             subject['variables'][j] += delta_q * (LS[j] - LI[j])
     return subject
 
-def add_data_to_csv(run_number, population, prob_mutacion, prob_cruce): 
-    best_subject = min(initial_population, key=lambda subj: objective_function(
+def get_best_solution(population):
+    best_subject = min(population, key=lambda subj: objective_function(
             subj['variables'][0], subj['variables'][1]
         ))
+    return best_subject
+
+def add_data_to_csv(run_number, population, prob_mutacion, prob_cruce): 
+    best_subject = get_best_solution(initial_population)
     worse_subject = max(initial_population, key=lambda subj: objective_function(
             subj['variables'][0], subj['variables'][1]
         ))
@@ -139,7 +143,7 @@ generations_data = []
 
 for _ in range(10):
     initial_population = get_initial_population()
-
+    generations_data.append({'test_number': _, 'generations': [], 'best_global_solution': None, 'best_global_fitness': None})
     for generation in range(TOT_GENERACIONES):
         best_subject = min(initial_population, key=lambda subj: objective_function(
             subj['variables'][0], subj['variables'][1]
@@ -155,11 +159,15 @@ for _ in range(10):
             child1, child2 = crossover_sbx(parent1, parent2, PROB_CRUCE[_])
             new_population.append(polinomial_mutation(child1, PROB_MUTACION[_]))
             new_population.append(polinomial_mutation(child2, PROB_MUTACION[_]))
-        generations_data.append(initial_population)
+        generations_data[-1]['generations'].append(initial_population)
         initial_population = new_population
         #replace a random subject in the new population with the best subject from the previous generation
         random_index = rng.integers(0, TAM_POBLACION)
         initial_population[random_index] = best_subject
+    best_global_solution = get_best_solution(initial_population)
+    best_global_fitness = objective_function(best_global_solution['variables'][0], best_global_solution['variables'][1])
+    generations_data[-1]['best_global_solution'] = best_global_solution
+    generations_data[-1]['best_global_fitness'] = best_global_fitness
     add_data_to_csv(_, initial_population, PROB_MUTACION[_], PROB_CRUCE[_])
 
 
@@ -179,19 +187,30 @@ sub.set_xlim(LIMITE_INFERIORX - 0.01, LIMITE_SUPERIORX + 0.01)
 sub.set_ylim(LIMITE_INFERIORY - 0.01, LIMITE_SUPERIORY + 0.01)
 #set the title of the plot
 sub.set_title("Optimizacion usando AG", fontsize=16)
-scatter_2d = sub.scatter([], [], color="red", s=50)
+scatter_2d = sub.scatter([], [], color="purple", s=50)
 
+#search for the best solution among all generations and all test runs
+run_index = None
+best_subject = None
+for test_run in generations_data:
+    for generation in test_run['generations']:
+        for subject in generation:
+            if best_subject is None or objective_function(subject['variables'][0], subject['variables'][1]) < objective_function(best_subject['variables'][0], best_subject['variables'][1]):
+                best_subject = subject
+                run_index = test_run['test_number']
 
+best_run = generations_data[run_index]['generations']  
 def update(frame):
-    population = generations_data[frame]
     #update the title of the plot with the generation number and show the best solution of that generation
-    best_x = best_subject['variables'][0]
-    best_y = best_subject['variables'][1]
+    population = generations_data[run_index]['generations'][frame]
+    best_generation_subject = get_best_solution(population)
+    best_x = best_generation_subject['variables'][0]
+    best_y = best_generation_subject['variables'][1]
     print(f"Generacion: {frame}, Mejor solucion: ({best_x:.5f}, {best_y:.5f})")
     x = [subj['variables'][0] for subj in population]
     y = [subj['variables'][1] for subj in population]
     scatter_2d.set_offsets(np.c_[x, y])
     return scatter_2d, sub, 
-
-ani = animation.FuncAnimation(fig, update, frames=len(generations_data), interval=500, blit=True)
+input("Presiona Enter para iniciar la animacion...")
+ani = animation.FuncAnimation(fig, update, frames=len(best_run), interval=500, blit=True)
 plt.show()
