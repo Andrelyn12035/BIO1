@@ -7,8 +7,8 @@ import math
 from scipy.signal import convolve2d
 rng = np.random.default_rng()
 
-TAM_POBLACION = 20
-TOT_GENERACIONES = 20
+TAM_POBLACION = 30
+TOT_GENERACIONES = 40
 NC = 10 #Entre mas grande los hijos seran menos parecidos a los padres, entre mas pequeño los hijos seran mas parecidos a los padres. influye en la diversidad de la poblacion, entre mas grande mas diversidad, entre mas pequeño menos diversidad
 NM = 20
 PROB_MUTACION = [0.01, 0.05, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8]
@@ -17,20 +17,20 @@ PRECISION = 8
 
 ##considerando 
 # α = x
-LIMITE_INFERIORX = 0
-LIMITE_SUPERIORX = 10
+LIMITE_INFERIORX = 0.1
+LIMITE_SUPERIORX = 10.0
 
 # Δ = y
-LIMITE_INFERIORY = 0
-LIMITE_SUPERIORY = 1
+LIMITE_INFERIORY = 0.0
+LIMITE_SUPERIORY = 1.0
 
 
 TOURNAMET_SIZE = 3
 RESOLUTION = .1
 
 
-LI = [1,-1]
-LS = [3,5]
+LI = [0.1,0.0]
+LS = [10.0,1.0]
 
 IMAGE_DIR = "./imagenes/equipo 7/RSNA_Mammography_1058522855.png"
 IMAGE_OBJECT = plt.imread(IMAGE_DIR)

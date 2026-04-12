@@ -6,8 +6,9 @@ from scipy.signal import convolve2d
 IMAGE_DIR = "./imagenes/equipo 7/Original_Medica5R.png"
 IMAGE_OBJECT = plt.imread(IMAGE_DIR)
 
-ALPHA = 16.2947464773039
-DELTA = 0.3895383524854035
+# Parámetros de prueba
+ALPHA = 9.949709985979874
+DELTA = 0.3490477025094941
 
 IMAGE_DIR = "./imagenes/equipo 7/RSNA_Mammography_1058522855.png"
 IMAGE_OBJECT = plt.imread(IMAGE_DIR)
