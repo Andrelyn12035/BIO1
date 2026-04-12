@@ -70,7 +70,7 @@ def objective_function(subject):
     transformed_image = get_sigmoid_transform(IMAGE_GRAY, x, y)
     # Optional safeguard against collapse
     if transformed_image.std() < 2:
-        return 1e9
+        return 0
     contraste = get_sobel(transformed_image)
     return -contraste
 
@@ -181,8 +181,8 @@ def crossover_sbx(parent1, parent2, prob_cruce):
                 beta_q = (1 / (2 - rng.random() * alpha)) ** (1 / (NC + 1))
             child1_j = 0.5 * ((P1 + P2) - beta_q * abs(P1 - P2))
             child2_j = 0.5 * ((P1 + P2) + beta_q * abs(P1 - P2))
-            child1['variables'][j] = child1_j
-            child2['variables'][j] = child2_j
+            child1['variables'][j] = np.clip(child1_j, LI[j], LS[j])
+            child2['variables'][j] = np.clip(child2_j, LI[j], LS[j])
     else:
         child1['variables'] = parent1['variables'].copy()
         child2['variables'] = parent2['variables'].copy()

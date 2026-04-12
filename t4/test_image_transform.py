@@ -3,11 +3,13 @@ import numpy as np
 from datetime import datetime
 from scipy.signal import convolve2d
 
+
+
 IMAGE_DIR = "./imagenes/equipo 7/Original_Medica5R.png"
 IMAGE_OBJECT = plt.imread(IMAGE_DIR)
 
 # Parámetros de prueba
-ALPHA = 9.949709985979874
+ALPHA = 25035.47881845735
 DELTA = 0.3490477025094941
 
 IMAGE_DIR = "./imagenes/equipo 7/RSNA_Mammography_1058522855.png"
