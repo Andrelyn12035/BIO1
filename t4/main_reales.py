@@ -7,7 +7,7 @@ import math
 from scipy.signal import convolve2d
 rng = np.random.default_rng()
 
-TAM_POBLACION = 30
+TAM_POBLACION = 50
 TOT_GENERACIONES = 40
 NC = 10 #Entre mas grande los hijos seran menos parecidos a los padres, entre mas pequeño los hijos seran mas parecidos a los padres. influye en la diversidad de la poblacion, entre mas grande mas diversidad, entre mas pequeño menos diversidad
 NM = 20
@@ -71,7 +71,8 @@ def objective_function(subject):
     # Optional safeguard against collapse
     if transformed_image.std() < 2:
         return 0
-    contraste = get_sobel(transformed_image)
+    #contraste = get_sobel(transformed_image)
+    contraste = get_entropy(transformed_image)
     return -contraste
 
 def get_sigmoid_transform(image, x, y):
