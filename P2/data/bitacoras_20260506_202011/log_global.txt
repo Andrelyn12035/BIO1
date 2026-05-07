@@ -1,0 +1,112 @@
+======================================================================
+  PRUEBAS EXHAUSTIVAS — AG SELECCIÓN DE CARTERA
+  Inicio: 2026-05-06 20:20:11
+  Carpeta de salida: ./data/bitacoras_20260506_202011
+======================================================================
+
+──────────────────────────────────────────────────────────────────────
+  FASE 1 — Configuración base, 30 runs por problema
+──────────────────────────────────────────────────────────────────────
+
+  [P1] Corriendo 30 runs con parámetros base...
+  [P1] Mejor rendimiento : 69.1269%
+  [P1] Mejor riesgo      : 0.044780
+  [P1] Media rendimiento : 68.5775% ± 0.3351%
+  [P1] Media riesgo      : 0.044703 ± 0.001489
+  [P1] Tiempo            : 136.3 s
+
+  [P2] Corriendo 30 runs con parámetros base...
+  [P2] Mejor rendimiento : 35.9202%
+  [P2] Mejor riesgo      : 0.001360
+  [P2] Media rendimiento : 35.9203% ± 0.0003%
+  [P2] Media riesgo      : 0.001360 ± 0.000000
+  [P2] Tiempo            : 186.3 s
+
+  [P3] Corriendo 30 runs con parámetros base...
+  [P3] Mejor rendimiento : 39.0189%
+  [P3] Mejor riesgo      : 0.002000
+  [P3] Media rendimiento : 38.9968% ± 0.0187%
+  [P3] Media riesgo      : 0.002000 ± 0.000001
+  [P3] Tiempo            : 159.5 s
+
+──────────────────────────────────────────────────────────────────────
+  FASE 2 — Barrido univariante (OAT), 15 runs c/u
+──────────────────────────────────────────────────────────────────────
+
+  Parámetro: tam_poblacion  valores: [100, 200, 400]
+    [P1] tam_poblacion=100       ret=69.167%  risk=0.045066  t=38.5s
+    [P2] tam_poblacion=100       ret=35.920%  risk=0.001360  t=46.3s
+    [P3] tam_poblacion=100       ret=39.018%  risk=0.002000  t=45.7s
+    [P1] tam_poblacion=200       ret=68.971%  risk=0.043437  t=66.8s
+    [P2] tam_poblacion=200       ret=35.920%  risk=0.001360  t=93.7s
+    [P3] tam_poblacion=200       ret=39.020%  risk=0.002000  t=81.4s
+    [P1] tam_poblacion=400       ret=69.064%  risk=0.044478  t=130.3s
+    [P2] tam_poblacion=400       ret=35.920%  risk=0.001360  t=185.8s
+    [P3] tam_poblacion=400       ret=39.021%  risk=0.002000  t=160.1s
+
+  Parámetro: n_generaciones  valores: [300, 500, 800]
+    [P1] n_generaciones=300       ret=69.147%  risk=0.045061  t=42.8s
+    [P2] n_generaciones=300       ret=35.920%  risk=0.001360  t=56.6s
+    [P3] n_generaciones=300       ret=39.021%  risk=0.002000  t=49.8s
+    [P1] n_generaciones=500       ret=69.082%  risk=0.046012  t=67.4s
+    [P2] n_generaciones=500       ret=35.920%  risk=0.001360  t=93.7s
+    [P3] n_generaciones=500       ret=39.021%  risk=0.002000  t=80.7s
+    [P1] n_generaciones=800       ret=68.988%  risk=0.043386  t=102.5s
+    [P2] n_generaciones=800       ret=35.920%  risk=0.001360  t=144.6s
+    [P3] n_generaciones=800       ret=39.020%  risk=0.002000  t=124.7s
+
+  Parámetro: nc  valores: [5, 15, 30]
+    [P1] nc=5         ret=69.140%  risk=0.045127  t=68.7s
+    [P2] nc=5         ret=35.920%  risk=0.001360  t=94.7s
+    [P3] nc=5         ret=39.017%  risk=0.001999  t=82.0s
+    [P1] nc=15        ret=68.895%  risk=0.043596  t=67.1s
+    [P2] nc=15        ret=35.920%  risk=0.001360  t=98.8s
+    [P3] nc=15        ret=39.020%  risk=0.002000  t=86.7s
+    [P1] nc=30        ret=68.985%  risk=0.046078  t=69.9s
+    [P2] nc=30        ret=35.920%  risk=0.001360  t=92.8s
+    [P3] nc=30        ret=39.020%  risk=0.002000  t=76.4s
+
+  Parámetro: nm  valores: [10, 20, 40]
+    [P1] nm=10        ret=69.162%  risk=0.045108  t=63.9s
+    [P2] nm=10        ret=35.920%  risk=0.001360  t=89.9s
+    [P3] nm=10        ret=39.019%  risk=0.002000  t=78.1s
+    [P1] nm=20        ret=69.080%  risk=0.044696  t=66.1s
+    [P2] nm=20        ret=35.920%  risk=0.001360  t=98.8s
+    [P3] nm=20        ret=39.019%  risk=0.002000  t=82.8s
+    [P1] nm=40        ret=68.892%  risk=0.044625  t=69.0s
+    [P2] nm=40        ret=35.920%  risk=0.001360  t=95.2s
+    [P3] nm=40        ret=39.017%  risk=0.002000  t=80.5s
+
+  Parámetro: prob_cruce  valores: [0.7, 0.9]
+    [P1] prob_cruce=0.7       ret=69.198%  risk=0.045489  t=79.5s
+    [P2] prob_cruce=0.7       ret=35.920%  risk=0.001360  t=86.1s
+    [P3] prob_cruce=0.7       ret=39.021%  risk=0.002000  t=86.0s
+    [P1] prob_cruce=0.9       ret=69.073%  risk=0.045403  t=68.4s
+    [P2] prob_cruce=0.9       ret=35.920%  risk=0.001360  t=93.1s
+    [P3] prob_cruce=0.9       ret=39.022%  risk=0.002000  t=74.5s
+
+  Parámetro: prob_mutacion  valores: [0.02, 0.05, 0.1]
+    [P1] prob_mutacion=0.02      ret=68.951%  risk=0.045106  t=61.1s
+    [P2] prob_mutacion=0.02      ret=35.920%  risk=0.001360  t=87.4s
+    [P3] prob_mutacion=0.02      ret=39.018%  risk=0.002000  t=71.7s
+    [P1] prob_mutacion=0.05      ret=68.918%  risk=0.042724  t=66.0s
+    [P2] prob_mutacion=0.05      ret=35.920%  risk=0.001360  t=88.4s
+    [P3] prob_mutacion=0.05      ret=39.020%  risk=0.002000  t=76.3s
+    [P1] prob_mutacion=0.1       ret=69.195%  risk=0.045463  t=69.5s
+    [P2] prob_mutacion=0.1       ret=35.920%  risk=0.001360  t=93.1s
+    [P3] prob_mutacion=0.1       ret=39.022%  risk=0.002000  t=99.1s
+
+  Parámetro: torneo  valores: [2, 3, 5]
+    [P1] torneo=2         ret=68.987%  risk=0.044588  t=90.2s
+    [P2] torneo=2         ret=35.920%  risk=0.001360  t=90.6s
+    [P3] torneo=2         ret=39.022%  risk=0.002000  t=93.8s
+    [P1] torneo=3         ret=68.945%  risk=0.046975  t=64.6s
+    [P2] torneo=3         ret=35.920%  risk=0.001360  t=89.5s
+    [P3] torneo=3         ret=39.022%  risk=0.002000  t=79.8s
+    [P1] torneo=5         ret=69.196%  risk=0.045489  t=73.4s
+    [P2] torneo=5         ret=35.920%  risk=0.001360  t=86.1s
+    [P3] torneo=5         ret=39.021%  risk=0.002000  t=70.2s
+
+  Parámetro: penalizacion  valores: [10000.0, 100000.0, 1000000.0]
+    [P1] penalizacion=10000.0   ret=69.039%  risk=0.044822  t=68.5s
+    [P2] penalizacion=10000.0   ret=35.920%  risk=0.001360  t=90.1s
