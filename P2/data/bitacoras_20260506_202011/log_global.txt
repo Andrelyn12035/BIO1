@@ -110,3 +110,105 @@
   Parámetro: penalizacion  valores: [10000.0, 100000.0, 1000000.0]
     [P1] penalizacion=10000.0   ret=69.039%  risk=0.044822  t=68.5s
     [P2] penalizacion=10000.0   ret=35.920%  risk=0.001360  t=90.1s
+    [P3] penalizacion=10000.0   ret=39.021%  risk=0.002000  t=83.1s
+    [P1] penalizacion=100000.0  ret=68.826%  risk=0.045228  t=67.3s
+    [P2] penalizacion=100000.0  ret=35.920%  risk=0.001360  t=89.1s
+    [P3] penalizacion=100000.0  ret=39.017%  risk=0.002000  t=77.6s
+    [P1] penalizacion=1000000.0  ret=69.078%  risk=0.044940  t=65.7s
+    [P2] penalizacion=1000000.0  ret=35.920%  risk=0.001360  t=92.6s
+    [P3] penalizacion=1000000.0  ret=39.021%  risk=0.002000  t=81.2s
+
+──────────────────────────────────────────────────────────────────────
+  FASE 3 — Combinaciones prometedoras, 20 runs c/u
+──────────────────────────────────────────────────────────────────────
+
+  Combo 1: tam=400 gen=800 nc=5 nm=10 pc=0.9 pm=0.1 t=2 pen=1e+05
+    [P1]  ret=69.1999%  risk=0.045480  t=365.6s
+    [P2]  ret=35.9208%  risk=0.001360  t=401.9s
+    [P3]  ret=39.0210%  risk=0.002000  t=402.8s
+
+  Combo 2: tam=200 gen=800 nc=15 nm=20 pc=0.9 pm=0.05 t=3 pen=1e+05
+    [P1]  ret=69.0751%  risk=0.045321  t=128.7s
+    [P2]  ret=35.9200%  risk=0.001360  t=182.9s
+    [P3]  ret=39.0200%  risk=0.002000  t=150.1s
+
+  Combo 3: tam=400 gen=800 nc=30 nm=40 pc=0.7 pm=0.02 t=5 pen=1e+05
+    [P1]  ret=69.1999%  risk=0.045480  t=249.3s
+    [P2]  ret=35.9199%  risk=0.001360  t=306.2s
+    [P3]  ret=39.0220%  risk=0.002000  t=249.8s
+
+  Combo 4: tam=200 gen=500 nc=10 nm=15 pc=0.9 pm=0.08 t=2 pen=1e+06
+    [P1]  ret=69.1116%  risk=0.045856  t=115.3s
+    [P2]  ret=35.9198%  risk=0.001360  t=124.7s
+    [P3]  ret=39.0221%  risk=0.002000  t=125.2s
+
+  Combo 5: tam=400 gen=500 nc=20 nm=20 pc=0.9 pm=0.05 t=5 pen=1e+06
+    [P1]  ret=69.1940%  risk=0.045412  t=177.6s
+    [P2]  ret=35.9198%  risk=0.001360  t=227.4s
+    [P3]  ret=39.0212%  risk=0.002000  t=177.0s
+
+  Combo 6: tam=400 gen=300 nc=15 nm=20 pc=0.9 pm=0.05 t=3 pen=1e+05
+    [P1]  ret=69.1596%  risk=0.045012  t=108.3s
+    [P2]  ret=35.9200%  risk=0.001360  t=143.4s
+    [P3]  ret=39.0189%  risk=0.002000  t=125.0s
+
+──────────────────────────────────────────────────────────────────────
+  FASE 4 — Configuración óptima, 50 runs por problema
+  Parámetros: {'tam_poblacion': 400, 'n_generaciones': 800, 'nc': 15, 'nm': 20, 'prob_cruce': 0.9, 'prob_mutacion': 0.05, 'torneo': 3, 'penalizacion': 100000.0}
+──────────────────────────────────────────────────────────────────────
+
+  [P1] RESULTADO FINAL (50 runs):
+    Mejor rendimiento : 69.1633%
+    Mejor riesgo      : 0.045188
+    Media rendimiento : 68.6608% ± 0.2825%
+    Media riesgo      : 0.044542 ± 0.001203
+    Tiempo total      : 640.9 s
+
+  [P2] RESULTADO FINAL (50 runs):
+    Mejor rendimiento : 35.9200%
+    Mejor riesgo      : 0.001360
+    Media rendimiento : 35.9201% ± 0.0001%
+    Media riesgo      : 0.001360 ± 0.000000
+    Tiempo total      : 927.3 s
+
+  [P3] RESULTADO FINAL (50 runs):
+    Mejor rendimiento : 39.0207%
+    Mejor riesgo      : 0.002000
+    Media rendimiento : 39.0074% ± 0.0128%
+    Media riesgo      : 0.002000 ± 0.000000
+    Tiempo total      : 763.5 s
+
+======================================================================
+  REPORTE FINAL — MEJORES SOLUCIONES ENCONTRADAS
+======================================================================
+
+  P1: Maximizar rendimiento (riesgo ignorado, xi<=40%)
+    Mejor rendimiento  : 69.1633%  (ref: 69.20%)
+    Mejor riesgo       : 0.045188
+    Media rendimiento  : 68.6608% ± 0.2825%
+    Media riesgo       : 0.044542 ± 0.001203
+    Consistencia (std fitness): 0.002825
+
+  P2: Minimizar riesgo (rendimiento>=35%, xi<=40%)
+    Mejor rendimiento  : 35.9200%
+    Mejor riesgo       : 0.001360  (ref: 0.001360)
+    Media rendimiento  : 35.9201% ± 0.0001%
+    Media riesgo       : 0.001360 ± 0.000000
+    Consistencia (std fitness): 0.000000
+
+  P3: Maximizar rendimiento (riesgo<=0.002, xi<=40%)
+    Mejor rendimiento  : 39.0207%
+    Mejor riesgo       : 0.002000  (ref: 0.002000)
+    Media rendimiento  : 39.0074% ± 0.0128%
+    Media riesgo       : 0.002000 ± 0.000000
+    Consistencia (std fitness): 0.000128
+
+──────────────────────────────────────────────────────────────────────
+  Total de experimentos registrados : 93
+  Tiempo total de ejecución         : 205.0 min (12301 s)
+  Archivos generados en: ./data/bitacoras_20260506_202011
+    - log_global.txt          (bitácora completa)
+    - resultados_P1/P2/P3.csv (detalle por run y problema)
+    - detalle_generaciones.csv (evolución por generación)
+    - resumen_parametros.csv  (resumen por experimento)
+======================================================================
