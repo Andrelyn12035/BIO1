@@ -93,10 +93,10 @@ def objective_function(variables):
 
 
 # ============================================================
-# NORMALIZACION AL SIMPLEX
+# NORMALIZACION
 # ============================================================
 def normalize(variables):
-    ## Proyecta el vector al simplex factible: xi in [0, 0.40], suma = 1
+    ## factible: xi in [0, 0.40], suma = 1
     variables = np.clip(variables, 0.0, 0.40)
     s = np.sum(variables)
     if s < 1e-12:
@@ -261,9 +261,7 @@ DESCRIPCIONES = {
     'P3': 'Maximizar rendimiento con riesgo <= 0.002 (xi <= 40%)',
 }
 REFERENCIAS = {
-    'P1': {'rendimiento': 69.20, 'riesgo': 0.045480},
-    'P2': {'rendimiento': 35.90, 'riesgo': 0.001360},
-    'P3': {'rendimiento': None,  'riesgo': 0.002000},
+    'P1': {'rendimiento': 69.20, 'riesgo': 0.045480}
 }
 
 print(f"\n{'='*58}")
