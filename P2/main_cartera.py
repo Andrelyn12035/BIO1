@@ -40,7 +40,7 @@ LS = np.ones(N_ACCIONES)
 #   'P1' -> Maximizar rendimiento, ignorar riesgo, xi <= 40%
 #   'P2' -> Minimizar riesgo, rendimiento >= 35%,  xi <= 40%
 #   'P3' -> Maximizar rendimiento, riesgo <= 0.002, xi <= 40%
-PROBLEMA = 'P2'
+PROBLEMA = 'P3'
 
 
 # ============================================================
