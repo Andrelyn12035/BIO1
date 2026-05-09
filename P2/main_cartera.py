@@ -2,14 +2,16 @@ import numpy as np
 
 rng = np.random.default_rng()
 
-TAM_POBLACION    = 200
-TOT_GENERACIONES = 500
+TAM_POBLACION    = 300
+TOT_GENERACIONES = 1000
 NC = 15  #Entre mas grande los hijos seran menos parecidos a los padres, entre mas pequeño los hijos seran mas parecidos a los padres. influye en la diversidad de la poblacion, entre mas grande mas diversidad, entre mas pequeño menos diversidad
 NM = 20
 PROB_MUTACION = 0.05
 PROB_CRUCE    = 0.9
 
 TOURNAMET_SIZE = 3
+
+N_ELITES = 5  # individuos elite que sobreviven intactos cada generacion
 
 PENALIZACION = 100000
 
@@ -35,12 +37,13 @@ LS = np.ones(N_ACCIONES)
 
 
 # ============================================================
-# PROBLEMA A RESOLVER  (cambiar para alternar entre P1, P2, P3)
+# PROBLEMA A RESOLVER  (se itera sobre los tres en el loop principal)
 # ============================================================
 #   'P1' -> Maximizar rendimiento, ignorar riesgo, xi <= 40%
 #   'P2' -> Minimizar riesgo, rendimiento >= 35%,  xi <= 40%
-#   'P3' -> Maximizar rendimiento, riesgo <= 0.002, xi <= 40%
-PROBLEMA = 'P3'
+#   'P3' -> Maximizar rendimiento, riesgo <= LIMITE_RIESGO_P3, xi <= 40%
+PROBLEMA          = 'P1'   # se sobreescribe en el loop
+LIMITE_RIESGO_P3  = 0.02   # se sobreescribe en el loop para P3
 
 
 # ============================================================
@@ -71,8 +74,7 @@ def restriction_function(variables):
         ## rendimiento esperado >= 35%
         pen += max(0.0, 0.35 - rendimiento_esperado(variables)) * PENALIZACION
     if PROBLEMA == 'P3':
-        ## riesgo (varianza) <= 0.002
-        pen += max(0.0, riesgo_cartera(variables) - 0.002) * PENALIZACION
+        pen += max(0.0, riesgo_cartera(variables) - LIMITE_RIESGO_P3) * PENALIZACION
 
     return pen
 
@@ -97,11 +99,19 @@ def objective_function(variables):
 # ============================================================
 def normalize(variables):
     ## factible: xi in [0, 0.40], suma = 1
+    ## Se itera clip→rescale porque dividir por una suma < 1 puede empujar
+    ## valores que estaban en 0.40 por encima del límite.
     variables = np.clip(variables, 0.0, 0.40)
-    s = np.sum(variables)
-    if s < 1e-12:
-        return np.ones(N_ACCIONES) / N_ACCIONES
-    return variables / s
+    for _ in range(50):
+        s = np.sum(variables)
+        if s < 1e-12:
+            return np.ones(N_ACCIONES) / N_ACCIONES
+        variables = variables / s
+        clipped = np.clip(variables, 0.0, 0.40)
+        if np.allclose(variables, clipped):
+            break
+        variables = clipped
+    return variables
 
 
 # ============================================================
@@ -208,32 +218,46 @@ def show_population(population):
 # ============================================================
 # GUARDAR RESULTADOS EN CSV
 # ============================================================
-def add_data_to_csv(run_number, population):
-    best_subject  = get_best_solution(population)
-    worse_subject = max(population, key=lambda subj: objective_function(subj['variables']))
+def add_data_to_csv(run_results, csv_filename):
+    """
+    run_results: lista de dicts con claves run, variables, rendimiento, riesgo, aptitud.
+    Genera dos secciones:
+      1) Resultados por ejecucion (pesos, rendimiento, riesgo, aptitud)
+      2) Tabla de metricas (Mejor, Media, Peor, Desv. estandar) sobre las aptitudes
+    """
+    aptitudes = [r['aptitud'] for r in run_results]
+    mejor_run = min(run_results, key=lambda r: r['aptitud'])
 
-    fitness_values  = [objective_function(subj['variables']) for subj in population]
-    median_fitness  = np.median(fitness_values)
-    std_fitness     = np.std(fitness_values)
+    with open(csv_filename, 'w') as f:
+        # --- Seccion 1: resultados por ejecucion ---
+        header = "Ejecucion, " + ", ".join(f"{a} (%)" for a in ACCIONES)
+        header += ", Rendimiento (%), Riesgo, Aptitud\n"
+        f.write(header)
 
-    with open('results.csv', 'a') as f:
-        if run_number == 0:
-            header = "Prueba, " + ", ".join(f"Mejor {a}" for a in ACCIONES)
-            header += ", Mejor Rendimiento, Mejor Riesgo, Mejor Aptitud"
-            header += ", " + ", ".join(f"Peor {a}" for a in ACCIONES)
-            header += ", Peor Rendimiento, Peor Riesgo, Peor Aptitud"
-            header += ", Mediana, Desviacion Estandar\n"
-            f.write(header)
+        for r in run_results:
+            v   = r['variables']
+            row = f"{r['run'] + 1}"
+            row += ", " + ", ".join(f"{v[i]*100:.4f}" for i in range(N_ACCIONES))
+            row += f", {r['rendimiento']*100:.4f}, {r['riesgo']:.6f}, {r['aptitud']:.6f}\n"
+            f.write(row)
 
-        bv = best_subject['variables']
-        wv = worse_subject['variables']
-        row = f"{run_number}"
-        row += ", " + ", ".join(f"{bv[i]:.6f}" for i in range(N_ACCIONES))
-        row += f", {rendimiento_esperado(bv):.6f}, {riesgo_cartera(bv):.6f}, {objective_function(bv):.6f}"
-        row += ", " + ", ".join(f"{wv[i]:.6f}" for i in range(N_ACCIONES))
-        row += f", {rendimiento_esperado(wv):.6f}, {riesgo_cartera(wv):.6f}, {objective_function(wv):.6f}"
-        row += f", {median_fitness:.6f}, {std_fitness:.6f}\n"
-        f.write(row)
+        # --- Seccion 2: tabla de metricas ---
+        f.write("\n")
+        f.write("Indicador, Valor\n")
+        f.write(f"Mejor,          {min(aptitudes):.6f}\n")
+        f.write(f"Media,          {np.mean(aptitudes):.6f}\n")
+        f.write(f"Peor,           {max(aptitudes):.6f}\n")
+        f.write(f"Desv. estandar, {np.std(aptitudes):.6f}\n")
+
+        # --- Seccion 3: solucion optima global ---
+        f.write("\n")
+        f.write("Solucion optima (mejor ejecucion)\n")
+        v = mejor_run['variables']
+        f.write("Accion, Fraccion, %\n")
+        for i, acc in enumerate(ACCIONES):
+            f.write(f"{acc}, {v[i]:.6f}, {v[i]*100:.4f}%\n")
+        f.write(f"Rendimiento esperado, {mejor_run['rendimiento']*100:.4f}%\n")
+        f.write(f"Riesgo (varianza),    {mejor_run['riesgo']:.6f}\n")
 
 
 # ============================================================
@@ -254,97 +278,87 @@ def show_best_solution(subject, run_number):
 
 
 # ============================================================
-# LOOP PRINCIPAL  
-DESCRIPCIONES = {
-    'P1': 'Maximizar rendimiento ignorando riesgo (xi <= 40%)',
-    'P2': 'Minimizar riesgo con rendimiento >= 35% (xi <= 40%)',
-    'P3': 'Maximizar rendimiento con riesgo <= 0.002 (xi <= 40%)',
-}
-REFERENCIAS = {
-    'P1': {'rendimiento': 69.20, 'riesgo': 0.045480}
-}
+# LOOP PRINCIPAL
+# Cada entrada: (PROBLEMA, LIMITE_RIESGO_P3, descripcion, csv)
+CONFIGURACIONES = [
+    ('P1', None,  'Maximizar rendimiento ignorando riesgo (xi <= 40%)',               'ResultadosSegundaEjecucionP1.csv'),
+    ('P2', None,  'Minimizar riesgo con rendimiento >= 35% (xi <= 40%)',              'ResultadosSegundaEjecucionP2.csv'),
+    ('P3', 0.02,  'Maximizar rendimiento con riesgo <= 0.02  (xi <= 40%)',            'ResultadosSegundaEjecucionP3_limite002.csv'),
+    ('P3', 0.002, 'Maximizar rendimiento con riesgo <= 0.002 (xi <= 40%)',            'ResultadosSegundaEjecucionP3_limite0002.csv'),
+]
 
-print(f"\n{'='*58}")
-print(f"  ALGORITMO GENETICO — SELECCION DE CARTERA DE INVERSION")
-print(f"{'='*58}")
-print(f"  Problema  : {PROBLEMA} — {DESCRIPCIONES[PROBLEMA]}")
-print(f"  Poblacion : {TAM_POBLACION}   Generaciones: {TOT_GENERACIONES}")
-print(f"  NC={NC}  NM={NM}  PC={PROB_CRUCE}  PM={PROB_MUTACION}  Torneo={TOURNAMET_SIZE}")
-print(f"  Penalizacion: {PENALIZACION:.0e}")
-print(f"{'='*58}\n")
+for PROBLEMA, LIMITE_RIESGO_P3, descripcion, csv_filename in CONFIGURACIONES:
+    print(f"\n{'='*58}")
+    print(f"  ALGORITMO GENETICO — SELECCION DE CARTERA DE INVERSION")
+    print(f"{'='*58}")
+    print(f"  Problema  : {PROBLEMA} — {descripcion}")
+    print(f"  Poblacion : {TAM_POBLACION}   Generaciones: {TOT_GENERACIONES}")
+    print(f"  NC={NC}  NM={NM}  PC={PROB_CRUCE}  PM={PROB_MUTACION}  Torneo={TOURNAMET_SIZE}")
+    print(f"  Penalizacion: {PENALIZACION:.0e}")
+    print(f"{'='*58}\n")
 
-generations_data = []
+    run_results = []
 
-for _ in range(10):
-    initial_population = get_initial_population()
-    generations_data.append({
-        'test_number':        _,
-        'generations':        [],
-        'best_global_solution': None,
-        'best_global_fitness':  None
-    })
+    for _ in range(10):
+        initial_population = get_initial_population()
 
-    for generation in range(TOT_GENERACIONES):
-        best_subject = min(initial_population, key=lambda subj: objective_function(subj['variables']))
+        for generation in range(TOT_GENERACIONES):
+            elites = sorted(initial_population, key=lambda subj: objective_function(subj['variables']))[:N_ELITES]
 
-        tournament_matrix = get_tournament_matrix()
-        selected_parents  = parent_selection(initial_population, tournament_matrix)
+            tournament_matrix = get_tournament_matrix()
+            selected_parents  = parent_selection(initial_population, tournament_matrix)
 
-        new_population = []
-        for i in range(0, TAM_POBLACION, 2):
-            parent1 = selected_parents[i]
-            parent2 = selected_parents[i + 1]
-            child1, child2 = crossover_sbx(parent1, parent2)
-            new_population.append(polinomial_mutation(child1))
-            new_population.append(polinomial_mutation(child2))
+            new_population = []
+            for i in range(0, TAM_POBLACION, 2):
+                parent1 = selected_parents[i]
+                parent2 = selected_parents[i + 1]
+                child1, child2 = crossover_sbx(parent1, parent2)
+                new_population.append(polinomial_mutation(child1))
+                new_population.append(polinomial_mutation(child2))
 
-        generations_data[-1]['generations'].append(initial_population)
-        initial_population = new_population
+            # Reemplazar los N_ELITES peores con los elites de la generacion anterior
+            new_population.sort(key=lambda subj: objective_function(subj['variables']), reverse=True)
+            for k in range(N_ELITES):
+                new_population[k] = {'variables': elites[k]['variables'].copy()}
 
-        # Reemplazar un individuo aleatorio con el mejor de la generacion anterior (elitismo)
-        random_index = rng.integers(0, TAM_POBLACION)
-        initial_population[random_index] = best_subject
+            initial_population = new_population
 
-    best_global_solution = get_best_solution(initial_population)
-    best_global_fitness  = objective_function(best_global_solution['variables'])
-    generations_data[-1]['best_global_solution'] = best_global_solution
-    generations_data[-1]['best_global_fitness']  = best_global_fitness
+        best_sol = get_best_solution(initial_population)
+        run_results.append({
+            'run':         _,
+            'variables':   best_sol['variables'],
+            'rendimiento': rendimiento_esperado(best_sol['variables']),
+            'riesgo':      riesgo_cartera(best_sol['variables']),
+            'aptitud':     objective_function(best_sol['variables']),
+        })
+        show_best_solution(best_sol, _)
 
-    add_data_to_csv(_, initial_population)
-    show_best_solution(best_global_solution, _)
+    add_data_to_csv(run_results, csv_filename)
 
+    # ============================================================
+    # MEJOR SOLUCION GLOBAL ENTRE TODOS LOS RUNS DEL PROBLEMA
+    # ============================================================
+    mejor_run = min(run_results, key=lambda r: r['aptitud'])
+    v = mejor_run['variables']
 
-# ============================================================
-# MEJOR SOLUCION GLOBAL ENTRE TODOS LOS RUNS
-# ============================================================
-run_index   = None
-best_subject = None
-for test_run in generations_data:
-    for generation in test_run['generations']:
-        for subject in generation:
-            if best_subject is None or objective_function(subject['variables']) < objective_function(best_subject['variables']):
-                best_subject = subject
-                run_index    = test_run['test_number']
+    print(f"\n{'='*58}")
+    print(f"  MEJOR SOLUCION GLOBAL {PROBLEMA}  (Run {mejor_run['run'] + 1})")
+    print(f"{'='*58}")
+    print(f"  {'Accion':<6} {'Fraccion':>10}  {'%':>7}")
+    print(f"  {'------':<6} {'--------':>10}  {'---':>7}")
+    for i, acc in enumerate(ACCIONES):
+        print(f"  {acc:<6} {v[i]:>10.4f}  {v[i]*100:>6.2f}%")
+    print(f"  {'------':<6} {'--------':>10}  {'---':>7}")
+    print(f"  {'TOTAL':<6} {np.sum(v):>10.4f}  {np.sum(v)*100:>6.2f}%")
+    print(f"\n  Rendimiento esperado : {mejor_run['rendimiento']*100:.4f}%")
+    print(f"  Riesgo (varianza)    : {mejor_run['riesgo']:.6f}")
+    print(f"  Aptitud              : {mejor_run['aptitud']:.6f}")
 
-ref = REFERENCIAS[PROBLEMA]
-print(f"\n{'='*58}")
-print(f"  MEJOR SOLUCION GLOBAL  (Run {run_index + 1})")
-print(f"{'='*58}")
-v = best_subject['variables']
-print(f"  {'Accion':<6} {'Fraccion':>10}  {'%':>7}")
-print(f"  {'------':<6} {'--------':>10}  {'---':>7}")
-for i, acc in enumerate(ACCIONES):
-    print(f"  {acc:<6} {v[i]:>10.4f}  {v[i]*100:>6.2f}%")
-print(f"  {'------':<6} {'--------':>10}  {'---':>7}")
-print(f"  {'TOTAL':<6} {np.sum(v):>10.4f}  {np.sum(v)*100:>6.2f}%")
-print(f"\n  Rendimiento esperado : {rendimiento_esperado(v)*100:.4f}%", end="")
-if ref['rendimiento']:
-    print(f"  (referencia: {ref['rendimiento']:.2f}%)", end="")
-print()
-print(f"  Riesgo (varianza)    : {riesgo_cartera(v):.6f}", end="")
-if ref['riesgo']:
-    print(f"  (referencia: {ref['riesgo']:.6f})", end="")
-print()
-print(f"  Aptitud              : {objective_function(v):.6f}")
-print(f"\n  Resultados guardados en: results.csv")
-print(f"{'='*58}\n")
+    aptitudes = [r['aptitud'] for r in run_results]
+    print(f"\n  {'Indicador':<20} {'Valor':>12}")
+    print(f"  {'Mejor':<20} {min(aptitudes):>12.6f}")
+    print(f"  {'Media':<20} {np.mean(aptitudes):>12.6f}")
+    print(f"  {'Peor':<20} {max(aptitudes):>12.6f}")
+    print(f"  {'Desv. estandar':<20} {np.std(aptitudes):>12.6f}")
+    print(f"\n  Resultados guardados en: {csv_filename}")
+    print(f"{'='*58}\n")
