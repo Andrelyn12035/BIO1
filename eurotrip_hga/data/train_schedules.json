@@ -1,0 +1,8692 @@
+{
+  "Madrid-Barcelona": {
+    "departures": [
+      {
+        "depart": 6.0,
+        "arrive": 8.37,
+        "duration_h": 2.37,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 8.5,
+        "arrive": 10.87,
+        "duration_h": 2.37,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 12.0,
+        "arrive": 14.37,
+        "duration_h": 2.37,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 16.0,
+        "arrive": 18.37,
+        "duration_h": 2.37,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 19.5,
+        "arrive": 21.87,
+        "duration_h": 2.37,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      }
+    ],
+    "car_hours": 6.869,
+    "origin_timezone_offset": 1.0,
+    "destination_timezone_offset": 1.0,
+    "source_mode": "synthetic"
+  },
+  "Madrid-París": {
+    "departures": [
+      {
+        "depart": 6.0,
+        "arrive": 11.15,
+        "duration_h": 5.15,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 8.5,
+        "arrive": 13.65,
+        "duration_h": 5.15,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 12.0,
+        "arrive": 17.15,
+        "duration_h": 5.15,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 16.0,
+        "arrive": 21.15,
+        "duration_h": 5.15,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 19.5,
+        "arrive": 24.65,
+        "duration_h": 5.15,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      }
+    ],
+    "car_hours": 13.497,
+    "origin_timezone_offset": 1.0,
+    "destination_timezone_offset": 1.0,
+    "source_mode": "synthetic"
+  },
+  "Madrid-Amsterdam": {
+    "departures": [],
+    "car_hours": 19.035,
+    "origin_timezone_offset": 1.0,
+    "destination_timezone_offset": 1.0,
+    "source_mode": "synthetic"
+  },
+  "Madrid-Bruselas": {
+    "departures": [],
+    "car_hours": 16.854,
+    "origin_timezone_offset": 1.0,
+    "destination_timezone_offset": 1.0,
+    "source_mode": "synthetic"
+  },
+  "Madrid-Frankfurt": {
+    "departures": [],
+    "car_hours": 19.001,
+    "origin_timezone_offset": 1.0,
+    "destination_timezone_offset": 1.0,
+    "source_mode": "synthetic"
+  },
+  "Madrid-Múnich": {
+    "departures": [],
+    "car_hours": 20.706,
+    "origin_timezone_offset": 1.0,
+    "destination_timezone_offset": 1.0,
+    "source_mode": "synthetic"
+  },
+  "Madrid-Viena": {
+    "departures": [],
+    "car_hours": 24.813,
+    "origin_timezone_offset": 1.0,
+    "destination_timezone_offset": 1.0,
+    "source_mode": "synthetic"
+  },
+  "Madrid-Praga": {
+    "departures": [],
+    "car_hours": 22.909,
+    "origin_timezone_offset": 1.0,
+    "destination_timezone_offset": 1.0,
+    "source_mode": "synthetic"
+  },
+  "Madrid-Berlín": {
+    "departures": [],
+    "car_hours": 23.994,
+    "origin_timezone_offset": 1.0,
+    "destination_timezone_offset": 1.0,
+    "source_mode": "synthetic"
+  },
+  "Madrid-Roma": {
+    "departures": [],
+    "car_hours": 20.967,
+    "origin_timezone_offset": 1.0,
+    "destination_timezone_offset": 1.0,
+    "source_mode": "synthetic"
+  },
+  "Madrid-Milán": {
+    "departures": [],
+    "car_hours": 16.95,
+    "origin_timezone_offset": 1.0,
+    "destination_timezone_offset": 1.0,
+    "source_mode": "synthetic"
+  },
+  "Madrid-Zúrich": {
+    "departures": [],
+    "car_hours": 17.585,
+    "origin_timezone_offset": 1.0,
+    "destination_timezone_offset": 1.0,
+    "source_mode": "synthetic"
+  },
+  "Madrid-Lisboa": {
+    "departures": [
+      {
+        "depart": 6.0,
+        "arrive": 8.64,
+        "duration_h": 2.64,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 8.5,
+        "arrive": 11.14,
+        "duration_h": 2.64,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 12.0,
+        "arrive": 14.64,
+        "duration_h": 2.64,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 16.0,
+        "arrive": 18.64,
+        "duration_h": 2.64,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 19.5,
+        "arrive": 22.14,
+        "duration_h": 2.64,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      }
+    ],
+    "car_hours": 6.827,
+    "origin_timezone_offset": 1.0,
+    "destination_timezone_offset": 0.0,
+    "source_mode": "synthetic"
+  },
+  "Madrid-Budapest": {
+    "departures": [],
+    "car_hours": 26.367,
+    "origin_timezone_offset": 1.0,
+    "destination_timezone_offset": 1.0,
+    "source_mode": "synthetic"
+  },
+  "Barcelona-Madrid": {
+    "departures": [
+      {
+        "depart": 6.0,
+        "arrive": 8.37,
+        "duration_h": 2.37,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 8.5,
+        "arrive": 10.87,
+        "duration_h": 2.37,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 12.0,
+        "arrive": 14.37,
+        "duration_h": 2.37,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 16.0,
+        "arrive": 18.37,
+        "duration_h": 2.37,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 19.5,
+        "arrive": 21.87,
+        "duration_h": 2.37,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      }
+    ],
+    "car_hours": 6.87,
+    "origin_timezone_offset": 1.0,
+    "destination_timezone_offset": 1.0,
+    "source_mode": "synthetic"
+  },
+  "Barcelona-París": {
+    "departures": [
+      {
+        "depart": 6.0,
+        "arrive": 10.14,
+        "duration_h": 4.14,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 8.5,
+        "arrive": 12.64,
+        "duration_h": 4.14,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 12.0,
+        "arrive": 16.14,
+        "duration_h": 4.14,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 16.0,
+        "arrive": 20.14,
+        "duration_h": 4.14,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 19.5,
+        "arrive": 23.64,
+        "duration_h": 4.14,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      }
+    ],
+    "car_hours": 10.853,
+    "origin_timezone_offset": 1.0,
+    "destination_timezone_offset": 1.0,
+    "source_mode": "synthetic"
+  },
+  "Barcelona-Amsterdam": {
+    "departures": [],
+    "car_hours": 16.391,
+    "origin_timezone_offset": 1.0,
+    "destination_timezone_offset": 1.0,
+    "source_mode": "synthetic"
+  },
+  "Barcelona-Bruselas": {
+    "departures": [],
+    "car_hours": 14.21,
+    "origin_timezone_offset": 1.0,
+    "destination_timezone_offset": 1.0,
+    "source_mode": "synthetic"
+  },
+  "Barcelona-Frankfurt": {
+    "departures": [],
+    "car_hours": 13.485,
+    "origin_timezone_offset": 1.0,
+    "destination_timezone_offset": 1.0,
+    "source_mode": "synthetic"
+  },
+  "Barcelona-Múnich": {
+    "departures": [],
+    "car_hours": 14.658,
+    "origin_timezone_offset": 1.0,
+    "destination_timezone_offset": 1.0,
+    "source_mode": "synthetic"
+  },
+  "Barcelona-Viena": {
+    "departures": [],
+    "car_hours": 18.902,
+    "origin_timezone_offset": 1.0,
+    "destination_timezone_offset": 1.0,
+    "source_mode": "synthetic"
+  },
+  "Barcelona-Praga": {
+    "departures": [],
+    "car_hours": 17.257,
+    "origin_timezone_offset": 1.0,
+    "destination_timezone_offset": 1.0,
+    "source_mode": "synthetic"
+  },
+  "Barcelona-Berlín": {
+    "departures": [],
+    "car_hours": 18.784,
+    "origin_timezone_offset": 1.0,
+    "destination_timezone_offset": 1.0,
+    "source_mode": "synthetic"
+  },
+  "Barcelona-Roma": {
+    "departures": [],
+    "car_hours": 14.658,
+    "origin_timezone_offset": 1.0,
+    "destination_timezone_offset": 1.0,
+    "source_mode": "synthetic"
+  },
+  "Barcelona-Milán": {
+    "departures": [],
+    "car_hours": 10.642,
+    "origin_timezone_offset": 1.0,
+    "destination_timezone_offset": 1.0,
+    "source_mode": "synthetic"
+  },
+  "Barcelona-Zúrich": {
+    "departures": [],
+    "car_hours": 11.31,
+    "origin_timezone_offset": 1.0,
+    "destination_timezone_offset": 1.0,
+    "source_mode": "synthetic"
+  },
+  "Barcelona-Lisboa": {
+    "departures": [],
+    "car_hours": 13.468,
+    "origin_timezone_offset": 1.0,
+    "destination_timezone_offset": 0.0,
+    "source_mode": "synthetic"
+  },
+  "Barcelona-Budapest": {
+    "departures": [],
+    "car_hours": 20.059,
+    "origin_timezone_offset": 1.0,
+    "destination_timezone_offset": 1.0,
+    "source_mode": "synthetic"
+  },
+  "París-Madrid": {
+    "departures": [
+      {
+        "depart": 6.0,
+        "arrive": 11.15,
+        "duration_h": 5.15,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 8.5,
+        "arrive": 13.65,
+        "duration_h": 5.15,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 12.0,
+        "arrive": 17.15,
+        "duration_h": 5.15,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 16.0,
+        "arrive": 21.15,
+        "duration_h": 5.15,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 19.5,
+        "arrive": 24.65,
+        "duration_h": 5.15,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      }
+    ],
+    "car_hours": 13.453,
+    "origin_timezone_offset": 1.0,
+    "destination_timezone_offset": 1.0,
+    "source_mode": "synthetic"
+  },
+  "París-Barcelona": {
+    "departures": [
+      {
+        "depart": 6.0,
+        "arrive": 10.14,
+        "duration_h": 4.14,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 8.5,
+        "arrive": 12.64,
+        "duration_h": 4.14,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 12.0,
+        "arrive": 16.14,
+        "duration_h": 4.14,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 16.0,
+        "arrive": 20.14,
+        "duration_h": 4.14,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 19.5,
+        "arrive": 23.64,
+        "duration_h": 4.14,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      }
+    ],
+    "car_hours": 10.863,
+    "origin_timezone_offset": 1.0,
+    "destination_timezone_offset": 1.0,
+    "source_mode": "synthetic"
+  },
+  "París-Amsterdam": {
+    "departures": [
+      {
+        "depart": 6.0,
+        "arrive": 8.07,
+        "duration_h": 2.07,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 8.5,
+        "arrive": 10.57,
+        "duration_h": 2.07,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 12.0,
+        "arrive": 14.07,
+        "duration_h": 2.07,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 16.0,
+        "arrive": 18.07,
+        "duration_h": 2.07,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 19.5,
+        "arrive": 21.57,
+        "duration_h": 2.07,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      }
+    ],
+    "car_hours": 5.842,
+    "origin_timezone_offset": 1.0,
+    "destination_timezone_offset": 1.0,
+    "source_mode": "synthetic"
+  },
+  "París-Bruselas": {
+    "departures": [
+      {
+        "depart": 6.0,
+        "arrive": 7.41,
+        "duration_h": 1.41,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 8.5,
+        "arrive": 9.91,
+        "duration_h": 1.41,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 12.0,
+        "arrive": 13.41,
+        "duration_h": 1.41,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 16.0,
+        "arrive": 17.41,
+        "duration_h": 1.41,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 19.5,
+        "arrive": 20.91,
+        "duration_h": 1.41,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      }
+    ],
+    "car_hours": 3.661,
+    "origin_timezone_offset": 1.0,
+    "destination_timezone_offset": 1.0,
+    "source_mode": "synthetic"
+  },
+  "París-Frankfurt": {
+    "departures": [
+      {
+        "depart": 6.0,
+        "arrive": 8.53,
+        "duration_h": 2.53,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 8.5,
+        "arrive": 11.03,
+        "duration_h": 2.53,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 12.0,
+        "arrive": 14.53,
+        "duration_h": 2.53,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 16.0,
+        "arrive": 18.53,
+        "duration_h": 2.53,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 19.5,
+        "arrive": 22.03,
+        "duration_h": 2.53,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      }
+    ],
+    "car_hours": 5.928,
+    "origin_timezone_offset": 1.0,
+    "destination_timezone_offset": 1.0,
+    "source_mode": "synthetic"
+  },
+  "París-Múnich": {
+    "departures": [
+      {
+        "depart": 6.0,
+        "arrive": 9.47,
+        "duration_h": 3.47,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 8.5,
+        "arrive": 11.97,
+        "duration_h": 3.47,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 12.0,
+        "arrive": 15.47,
+        "duration_h": 3.47,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 16.0,
+        "arrive": 19.47,
+        "duration_h": 3.47,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 19.5,
+        "arrive": 22.97,
+        "duration_h": 3.47,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      }
+    ],
+    "car_hours": 8.639,
+    "origin_timezone_offset": 1.0,
+    "destination_timezone_offset": 1.0,
+    "source_mode": "synthetic"
+  },
+  "París-Viena": {
+    "departures": [],
+    "car_hours": 12.46,
+    "origin_timezone_offset": 1.0,
+    "destination_timezone_offset": 1.0,
+    "source_mode": "synthetic"
+  },
+  "París-Praga": {
+    "departures": [],
+    "car_hours": 10.344,
+    "origin_timezone_offset": 1.0,
+    "destination_timezone_offset": 1.0,
+    "source_mode": "synthetic"
+  },
+  "París-Berlín": {
+    "departures": [],
+    "car_hours": 10.801,
+    "origin_timezone_offset": 1.0,
+    "destination_timezone_offset": 1.0,
+    "source_mode": "synthetic"
+  },
+  "París-Roma": {
+    "departures": [],
+    "car_hours": 15.197,
+    "origin_timezone_offset": 1.0,
+    "destination_timezone_offset": 1.0,
+    "source_mode": "synthetic"
+  },
+  "París-Milán": {
+    "departures": [
+      {
+        "depart": 6.0,
+        "arrive": 9.26,
+        "duration_h": 3.26,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 8.5,
+        "arrive": 11.76,
+        "duration_h": 3.26,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 12.0,
+        "arrive": 15.26,
+        "duration_h": 3.26,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 16.0,
+        "arrive": 19.26,
+        "duration_h": 3.26,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 19.5,
+        "arrive": 22.76,
+        "duration_h": 3.26,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      }
+    ],
+    "car_hours": 9.454,
+    "origin_timezone_offset": 1.0,
+    "destination_timezone_offset": 1.0,
+    "source_mode": "synthetic"
+  },
+  "París-Zúrich": {
+    "departures": [
+      {
+        "depart": 6.0,
+        "arrive": 8.57,
+        "duration_h": 2.57,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 8.5,
+        "arrive": 11.07,
+        "duration_h": 2.57,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 12.0,
+        "arrive": 14.57,
+        "duration_h": 2.57,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 16.0,
+        "arrive": 18.57,
+        "duration_h": 2.57,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 19.5,
+        "arrive": 22.07,
+        "duration_h": 2.57,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      }
+    ],
+    "car_hours": 7.042,
+    "origin_timezone_offset": 1.0,
+    "destination_timezone_offset": 1.0,
+    "source_mode": "synthetic"
+  },
+  "París-Lisboa": {
+    "departures": [],
+    "car_hours": 18.277,
+    "origin_timezone_offset": 1.0,
+    "destination_timezone_offset": 0.0,
+    "source_mode": "synthetic"
+  },
+  "París-Budapest": {
+    "departures": [],
+    "car_hours": 14.844,
+    "origin_timezone_offset": 1.0,
+    "destination_timezone_offset": 1.0,
+    "source_mode": "synthetic"
+  },
+  "Amsterdam-Madrid": {
+    "departures": [],
+    "car_hours": 19.004,
+    "origin_timezone_offset": 1.0,
+    "destination_timezone_offset": 1.0,
+    "source_mode": "synthetic"
+  },
+  "Amsterdam-Barcelona": {
+    "departures": [],
+    "car_hours": 16.414,
+    "origin_timezone_offset": 1.0,
+    "destination_timezone_offset": 1.0,
+    "source_mode": "synthetic"
+  },
+  "Amsterdam-París": {
+    "departures": [
+      {
+        "depart": 6.0,
+        "arrive": 8.07,
+        "duration_h": 2.07,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 8.5,
+        "arrive": 10.57,
+        "duration_h": 2.07,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 12.0,
+        "arrive": 14.07,
+        "duration_h": 2.07,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 16.0,
+        "arrive": 18.07,
+        "duration_h": 2.07,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 19.5,
+        "arrive": 21.57,
+        "duration_h": 2.07,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      }
+    ],
+    "car_hours": 5.866,
+    "origin_timezone_offset": 1.0,
+    "destination_timezone_offset": 1.0,
+    "source_mode": "synthetic"
+  },
+  "Amsterdam-Bruselas": {
+    "departures": [
+      {
+        "depart": 6.0,
+        "arrive": 7.14,
+        "duration_h": 1.14,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 8.5,
+        "arrive": 9.64,
+        "duration_h": 1.14,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 12.0,
+        "arrive": 13.14,
+        "duration_h": 1.14,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 16.0,
+        "arrive": 17.14,
+        "duration_h": 1.14,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 19.5,
+        "arrive": 20.64,
+        "duration_h": 1.14,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      }
+    ],
+    "car_hours": 2.634,
+    "origin_timezone_offset": 1.0,
+    "destination_timezone_offset": 1.0,
+    "source_mode": "synthetic"
+  },
+  "Amsterdam-Frankfurt": {
+    "departures": [
+      {
+        "depart": 6.0,
+        "arrive": 8.01,
+        "duration_h": 2.01,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 8.5,
+        "arrive": 10.51,
+        "duration_h": 2.01,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 12.0,
+        "arrive": 14.01,
+        "duration_h": 2.01,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 16.0,
+        "arrive": 18.01,
+        "duration_h": 2.01,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 19.5,
+        "arrive": 21.51,
+        "duration_h": 2.01,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      }
+    ],
+    "car_hours": 4.716,
+    "origin_timezone_offset": 1.0,
+    "destination_timezone_offset": 1.0,
+    "source_mode": "synthetic"
+  },
+  "Amsterdam-Múnich": {
+    "departures": [
+      {
+        "depart": 6.0,
+        "arrive": 9.39,
+        "duration_h": 3.39,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 8.5,
+        "arrive": 11.89,
+        "duration_h": 3.39,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 12.0,
+        "arrive": 15.39,
+        "duration_h": 3.39,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 16.0,
+        "arrive": 19.39,
+        "duration_h": 3.39,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 19.5,
+        "arrive": 22.89,
+        "duration_h": 3.39,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      }
+    ],
+    "car_hours": 8.417,
+    "origin_timezone_offset": 1.0,
+    "destination_timezone_offset": 1.0,
+    "source_mode": "synthetic"
+  },
+  "Amsterdam-Viena": {
+    "departures": [],
+    "car_hours": 11.698,
+    "origin_timezone_offset": 1.0,
+    "destination_timezone_offset": 1.0,
+    "source_mode": "synthetic"
+  },
+  "Amsterdam-Praga": {
+    "departures": [
+      {
+        "depart": 6.0,
+        "arrive": 9.59,
+        "duration_h": 3.59,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 8.5,
+        "arrive": 12.09,
+        "duration_h": 3.59,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 12.0,
+        "arrive": 15.59,
+        "duration_h": 3.59,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 16.0,
+        "arrive": 19.59,
+        "duration_h": 3.59,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 19.5,
+        "arrive": 23.09,
+        "duration_h": 3.59,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      }
+    ],
+    "car_hours": 9.032,
+    "origin_timezone_offset": 1.0,
+    "destination_timezone_offset": 1.0,
+    "source_mode": "synthetic"
+  },
+  "Amsterdam-Berlín": {
+    "departures": [
+      {
+        "depart": 6.0,
+        "arrive": 8.97,
+        "duration_h": 2.97,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 8.5,
+        "arrive": 11.47,
+        "duration_h": 2.97,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 12.0,
+        "arrive": 14.97,
+        "duration_h": 2.97,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 16.0,
+        "arrive": 18.97,
+        "duration_h": 2.97,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 19.5,
+        "arrive": 22.47,
+        "duration_h": 2.97,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      }
+    ],
+    "car_hours": 7.047,
+    "origin_timezone_offset": 1.0,
+    "destination_timezone_offset": 1.0,
+    "source_mode": "synthetic"
+  },
+  "Amsterdam-Roma": {
+    "departures": [],
+    "car_hours": 17.348,
+    "origin_timezone_offset": 1.0,
+    "destination_timezone_offset": 1.0,
+    "source_mode": "synthetic"
+  },
+  "Amsterdam-Milán": {
+    "departures": [],
+    "car_hours": 11.553,
+    "origin_timezone_offset": 1.0,
+    "destination_timezone_offset": 1.0,
+    "source_mode": "synthetic"
+  },
+  "Amsterdam-Zúrich": {
+    "departures": [
+      {
+        "depart": 6.0,
+        "arrive": 9.14,
+        "duration_h": 3.14,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 8.5,
+        "arrive": 11.64,
+        "duration_h": 3.14,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 12.0,
+        "arrive": 15.14,
+        "duration_h": 3.14,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 16.0,
+        "arrive": 19.14,
+        "duration_h": 3.14,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 19.5,
+        "arrive": 22.64,
+        "duration_h": 3.14,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      }
+    ],
+    "car_hours": 8.494,
+    "origin_timezone_offset": 1.0,
+    "destination_timezone_offset": 1.0,
+    "source_mode": "synthetic"
+  },
+  "Amsterdam-Lisboa": {
+    "departures": [],
+    "car_hours": 23.828,
+    "origin_timezone_offset": 1.0,
+    "destination_timezone_offset": 0.0,
+    "source_mode": "synthetic"
+  },
+  "Amsterdam-Budapest": {
+    "departures": [],
+    "car_hours": 14.082,
+    "origin_timezone_offset": 1.0,
+    "destination_timezone_offset": 1.0,
+    "source_mode": "synthetic"
+  },
+  "Bruselas-Madrid": {
+    "departures": [],
+    "car_hours": 16.84,
+    "origin_timezone_offset": 1.0,
+    "destination_timezone_offset": 1.0,
+    "source_mode": "synthetic"
+  },
+  "Bruselas-Barcelona": {
+    "departures": [],
+    "car_hours": 14.25,
+    "origin_timezone_offset": 1.0,
+    "destination_timezone_offset": 1.0,
+    "source_mode": "synthetic"
+  },
+  "Bruselas-París": {
+    "departures": [
+      {
+        "depart": 6.0,
+        "arrive": 7.41,
+        "duration_h": 1.41,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 8.5,
+        "arrive": 9.91,
+        "duration_h": 1.41,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 12.0,
+        "arrive": 13.41,
+        "duration_h": 1.41,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 16.0,
+        "arrive": 17.41,
+        "duration_h": 1.41,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 19.5,
+        "arrive": 20.91,
+        "duration_h": 1.41,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      }
+    ],
+    "car_hours": 3.702,
+    "origin_timezone_offset": 1.0,
+    "destination_timezone_offset": 1.0,
+    "source_mode": "synthetic"
+  },
+  "Bruselas-Amsterdam": {
+    "departures": [
+      {
+        "depart": 6.0,
+        "arrive": 7.14,
+        "duration_h": 1.14,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 8.5,
+        "arrive": 9.64,
+        "duration_h": 1.14,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 12.0,
+        "arrive": 13.14,
+        "duration_h": 1.14,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 16.0,
+        "arrive": 17.14,
+        "duration_h": 1.14,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 19.5,
+        "arrive": 20.64,
+        "duration_h": 1.14,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      }
+    ],
+    "car_hours": 2.668,
+    "origin_timezone_offset": 1.0,
+    "destination_timezone_offset": 1.0,
+    "source_mode": "synthetic"
+  },
+  "Bruselas-Frankfurt": {
+    "departures": [
+      {
+        "depart": 6.0,
+        "arrive": 7.8,
+        "duration_h": 1.8,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 8.5,
+        "arrive": 10.3,
+        "duration_h": 1.8,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 12.0,
+        "arrive": 13.8,
+        "duration_h": 1.8,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 16.0,
+        "arrive": 17.8,
+        "duration_h": 1.8,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 19.5,
+        "arrive": 21.3,
+        "duration_h": 1.8,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      }
+    ],
+    "car_hours": 4.215,
+    "origin_timezone_offset": 1.0,
+    "destination_timezone_offset": 1.0,
+    "source_mode": "synthetic"
+  },
+  "Bruselas-Múnich": {
+    "departures": [
+      {
+        "depart": 6.0,
+        "arrive": 9.1,
+        "duration_h": 3.1,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 8.5,
+        "arrive": 11.6,
+        "duration_h": 3.1,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 12.0,
+        "arrive": 15.1,
+        "duration_h": 3.1,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 16.0,
+        "arrive": 19.1,
+        "duration_h": 3.1,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 19.5,
+        "arrive": 22.6,
+        "duration_h": 3.1,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      }
+    ],
+    "car_hours": 7.913,
+    "origin_timezone_offset": 1.0,
+    "destination_timezone_offset": 1.0,
+    "source_mode": "synthetic"
+  },
+  "Bruselas-Viena": {
+    "departures": [],
+    "car_hours": 11.197,
+    "origin_timezone_offset": 1.0,
+    "destination_timezone_offset": 1.0,
+    "source_mode": "synthetic"
+  },
+  "Bruselas-Praga": {
+    "departures": [],
+    "car_hours": 9.1,
+    "origin_timezone_offset": 1.0,
+    "destination_timezone_offset": 1.0,
+    "source_mode": "synthetic"
+  },
+  "Bruselas-Berlín": {
+    "departures": [
+      {
+        "depart": 6.0,
+        "arrive": 9.31,
+        "duration_h": 3.31,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 8.5,
+        "arrive": 11.81,
+        "duration_h": 3.31,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 12.0,
+        "arrive": 15.31,
+        "duration_h": 3.31,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 16.0,
+        "arrive": 19.31,
+        "duration_h": 3.31,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 19.5,
+        "arrive": 22.81,
+        "duration_h": 3.31,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      }
+    ],
+    "car_hours": 7.905,
+    "origin_timezone_offset": 1.0,
+    "destination_timezone_offset": 1.0,
+    "source_mode": "synthetic"
+  },
+  "Bruselas-Roma": {
+    "departures": [],
+    "car_hours": 16.022,
+    "origin_timezone_offset": 1.0,
+    "destination_timezone_offset": 1.0,
+    "source_mode": "synthetic"
+  },
+  "Bruselas-Milán": {
+    "departures": [],
+    "car_hours": 10.228,
+    "origin_timezone_offset": 1.0,
+    "destination_timezone_offset": 1.0,
+    "source_mode": "synthetic"
+  },
+  "Bruselas-Zúrich": {
+    "departures": [
+      {
+        "depart": 6.0,
+        "arrive": 8.59,
+        "duration_h": 2.59,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 8.5,
+        "arrive": 11.09,
+        "duration_h": 2.59,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 12.0,
+        "arrive": 14.59,
+        "duration_h": 2.59,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 16.0,
+        "arrive": 18.59,
+        "duration_h": 2.59,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 19.5,
+        "arrive": 22.09,
+        "duration_h": 2.59,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      }
+    ],
+    "car_hours": 7.204,
+    "origin_timezone_offset": 1.0,
+    "destination_timezone_offset": 1.0,
+    "source_mode": "synthetic"
+  },
+  "Bruselas-Lisboa": {
+    "departures": [],
+    "car_hours": 21.664,
+    "origin_timezone_offset": 1.0,
+    "destination_timezone_offset": 0.0,
+    "source_mode": "synthetic"
+  },
+  "Bruselas-Budapest": {
+    "departures": [],
+    "car_hours": 13.581,
+    "origin_timezone_offset": 1.0,
+    "destination_timezone_offset": 1.0,
+    "source_mode": "synthetic"
+  },
+  "Frankfurt-Madrid": {
+    "departures": [],
+    "car_hours": 18.969,
+    "origin_timezone_offset": 1.0,
+    "destination_timezone_offset": 1.0,
+    "source_mode": "synthetic"
+  },
+  "Frankfurt-Barcelona": {
+    "departures": [],
+    "car_hours": 13.543,
+    "origin_timezone_offset": 1.0,
+    "destination_timezone_offset": 1.0,
+    "source_mode": "synthetic"
+  },
+  "Frankfurt-París": {
+    "departures": [
+      {
+        "depart": 6.0,
+        "arrive": 8.53,
+        "duration_h": 2.53,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 8.5,
+        "arrive": 11.03,
+        "duration_h": 2.53,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 12.0,
+        "arrive": 14.53,
+        "duration_h": 2.53,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 16.0,
+        "arrive": 18.53,
+        "duration_h": 2.53,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 19.5,
+        "arrive": 22.03,
+        "duration_h": 2.53,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      }
+    ],
+    "car_hours": 5.914,
+    "origin_timezone_offset": 1.0,
+    "destination_timezone_offset": 1.0,
+    "source_mode": "synthetic"
+  },
+  "Frankfurt-Amsterdam": {
+    "departures": [
+      {
+        "depart": 6.0,
+        "arrive": 8.01,
+        "duration_h": 2.01,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 8.5,
+        "arrive": 10.51,
+        "duration_h": 2.01,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 12.0,
+        "arrive": 14.01,
+        "duration_h": 2.01,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 16.0,
+        "arrive": 18.01,
+        "duration_h": 2.01,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 19.5,
+        "arrive": 21.51,
+        "duration_h": 2.01,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      }
+    ],
+    "car_hours": 4.794,
+    "origin_timezone_offset": 1.0,
+    "destination_timezone_offset": 1.0,
+    "source_mode": "synthetic"
+  },
+  "Frankfurt-Bruselas": {
+    "departures": [
+      {
+        "depart": 6.0,
+        "arrive": 7.8,
+        "duration_h": 1.8,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 8.5,
+        "arrive": 10.3,
+        "duration_h": 1.8,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 12.0,
+        "arrive": 13.8,
+        "duration_h": 1.8,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 16.0,
+        "arrive": 17.8,
+        "duration_h": 1.8,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 19.5,
+        "arrive": 21.3,
+        "duration_h": 1.8,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      }
+    ],
+    "car_hours": 4.289,
+    "origin_timezone_offset": 1.0,
+    "destination_timezone_offset": 1.0,
+    "source_mode": "synthetic"
+  },
+  "Frankfurt-Múnich": {
+    "departures": [
+      {
+        "depart": 6.0,
+        "arrive": 7.57,
+        "duration_h": 1.57,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 8.5,
+        "arrive": 10.07,
+        "duration_h": 1.57,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 12.0,
+        "arrive": 13.57,
+        "duration_h": 1.57,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 16.0,
+        "arrive": 17.57,
+        "duration_h": 1.57,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 19.5,
+        "arrive": 21.07,
+        "duration_h": 1.57,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      }
+    ],
+    "car_hours": 3.987,
+    "origin_timezone_offset": 1.0,
+    "destination_timezone_offset": 1.0,
+    "source_mode": "synthetic"
+  },
+  "Frankfurt-Viena": {
+    "departures": [
+      {
+        "depart": 6.0,
+        "arrive": 9.07,
+        "duration_h": 3.07,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 8.5,
+        "arrive": 11.57,
+        "duration_h": 3.07,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 12.0,
+        "arrive": 15.07,
+        "duration_h": 3.07,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 16.0,
+        "arrive": 19.07,
+        "duration_h": 3.07,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 19.5,
+        "arrive": 22.57,
+        "duration_h": 3.07,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      }
+    ],
+    "car_hours": 7.268,
+    "origin_timezone_offset": 1.0,
+    "destination_timezone_offset": 1.0,
+    "source_mode": "synthetic"
+  },
+  "Frankfurt-Praga": {
+    "departures": [
+      {
+        "depart": 6.0,
+        "arrive": 8.22,
+        "duration_h": 2.22,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 8.5,
+        "arrive": 10.72,
+        "duration_h": 2.22,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 12.0,
+        "arrive": 14.22,
+        "duration_h": 2.22,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 16.0,
+        "arrive": 18.22,
+        "duration_h": 2.22,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 19.5,
+        "arrive": 21.72,
+        "duration_h": 2.22,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      }
+    ],
+    "car_hours": 5.17,
+    "origin_timezone_offset": 1.0,
+    "destination_timezone_offset": 1.0,
+    "source_mode": "synthetic"
+  },
+  "Frankfurt-Berlín": {
+    "departures": [
+      {
+        "depart": 6.0,
+        "arrive": 8.28,
+        "duration_h": 2.28,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 8.5,
+        "arrive": 10.78,
+        "duration_h": 2.28,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 12.0,
+        "arrive": 14.28,
+        "duration_h": 2.28,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 16.0,
+        "arrive": 18.28,
+        "duration_h": 2.28,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 19.5,
+        "arrive": 21.78,
+        "duration_h": 2.28,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      }
+    ],
+    "car_hours": 5.623,
+    "origin_timezone_offset": 1.0,
+    "destination_timezone_offset": 1.0,
+    "source_mode": "synthetic"
+  },
+  "Frankfurt-Roma": {
+    "departures": [],
+    "car_hours": 13.086,
+    "origin_timezone_offset": 1.0,
+    "destination_timezone_offset": 1.0,
+    "source_mode": "synthetic"
+  },
+  "Frankfurt-Milán": {
+    "departures": [
+      {
+        "depart": 6.0,
+        "arrive": 8.71,
+        "duration_h": 2.71,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 8.5,
+        "arrive": 11.21,
+        "duration_h": 2.71,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 12.0,
+        "arrive": 14.71,
+        "duration_h": 2.71,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 16.0,
+        "arrive": 18.71,
+        "duration_h": 2.71,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 19.5,
+        "arrive": 22.21,
+        "duration_h": 2.71,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      }
+    ],
+    "car_hours": 7.291,
+    "origin_timezone_offset": 1.0,
+    "destination_timezone_offset": 1.0,
+    "source_mode": "synthetic"
+  },
+  "Frankfurt-Zúrich": {
+    "departures": [
+      {
+        "depart": 6.0,
+        "arrive": 7.74,
+        "duration_h": 1.74,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 8.5,
+        "arrive": 10.24,
+        "duration_h": 1.74,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 12.0,
+        "arrive": 13.74,
+        "duration_h": 1.74,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 16.0,
+        "arrive": 17.74,
+        "duration_h": 1.74,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 19.5,
+        "arrive": 21.24,
+        "duration_h": 1.74,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      }
+    ],
+    "car_hours": 4.232,
+    "origin_timezone_offset": 1.0,
+    "destination_timezone_offset": 1.0,
+    "source_mode": "synthetic"
+  },
+  "Frankfurt-Lisboa": {
+    "departures": [],
+    "car_hours": 23.793,
+    "origin_timezone_offset": 1.0,
+    "destination_timezone_offset": 0.0,
+    "source_mode": "synthetic"
+  },
+  "Frankfurt-Budapest": {
+    "departures": [],
+    "car_hours": 9.652,
+    "origin_timezone_offset": 1.0,
+    "destination_timezone_offset": 1.0,
+    "source_mode": "synthetic"
+  },
+  "Múnich-Madrid": {
+    "departures": [],
+    "car_hours": 20.784,
+    "origin_timezone_offset": 1.0,
+    "destination_timezone_offset": 1.0,
+    "source_mode": "synthetic"
+  },
+  "Múnich-Barcelona": {
+    "departures": [],
+    "car_hours": 14.693,
+    "origin_timezone_offset": 1.0,
+    "destination_timezone_offset": 1.0,
+    "source_mode": "synthetic"
+  },
+  "Múnich-París": {
+    "departures": [
+      {
+        "depart": 6.0,
+        "arrive": 9.47,
+        "duration_h": 3.47,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 8.5,
+        "arrive": 11.97,
+        "duration_h": 3.47,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 12.0,
+        "arrive": 15.47,
+        "duration_h": 3.47,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 16.0,
+        "arrive": 19.47,
+        "duration_h": 3.47,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 19.5,
+        "arrive": 22.97,
+        "duration_h": 3.47,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      }
+    ],
+    "car_hours": 8.647,
+    "origin_timezone_offset": 1.0,
+    "destination_timezone_offset": 1.0,
+    "source_mode": "synthetic"
+  },
+  "Múnich-Amsterdam": {
+    "departures": [
+      {
+        "depart": 6.0,
+        "arrive": 9.39,
+        "duration_h": 3.39,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 8.5,
+        "arrive": 11.89,
+        "duration_h": 3.39,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 12.0,
+        "arrive": 15.39,
+        "duration_h": 3.39,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 16.0,
+        "arrive": 19.39,
+        "duration_h": 3.39,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 19.5,
+        "arrive": 22.89,
+        "duration_h": 3.39,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      }
+    ],
+    "car_hours": 8.403,
+    "origin_timezone_offset": 1.0,
+    "destination_timezone_offset": 1.0,
+    "source_mode": "synthetic"
+  },
+  "Múnich-Bruselas": {
+    "departures": [
+      {
+        "depart": 6.0,
+        "arrive": 9.1,
+        "duration_h": 3.1,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 8.5,
+        "arrive": 11.6,
+        "duration_h": 3.1,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 12.0,
+        "arrive": 15.1,
+        "duration_h": 3.1,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 16.0,
+        "arrive": 19.1,
+        "duration_h": 3.1,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 19.5,
+        "arrive": 22.6,
+        "duration_h": 3.1,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      }
+    ],
+    "car_hours": 7.898,
+    "origin_timezone_offset": 1.0,
+    "destination_timezone_offset": 1.0,
+    "source_mode": "synthetic"
+  },
+  "Múnich-Frankfurt": {
+    "departures": [
+      {
+        "depart": 6.0,
+        "arrive": 7.57,
+        "duration_h": 1.57,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 8.5,
+        "arrive": 10.07,
+        "duration_h": 1.57,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 12.0,
+        "arrive": 13.57,
+        "duration_h": 1.57,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 16.0,
+        "arrive": 17.57,
+        "duration_h": 1.57,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 19.5,
+        "arrive": 21.07,
+        "duration_h": 1.57,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      }
+    ],
+    "car_hours": 3.903,
+    "origin_timezone_offset": 1.0,
+    "destination_timezone_offset": 1.0,
+    "source_mode": "synthetic"
+  },
+  "Múnich-Viena": {
+    "departures": [
+      {
+        "depart": 6.0,
+        "arrive": 7.77,
+        "duration_h": 1.77,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 8.5,
+        "arrive": 10.27,
+        "duration_h": 1.77,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 12.0,
+        "arrive": 13.77,
+        "duration_h": 1.77,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 16.0,
+        "arrive": 17.77,
+        "duration_h": 1.77,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 19.5,
+        "arrive": 21.27,
+        "duration_h": 1.77,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      }
+    ],
+    "car_hours": 4.414,
+    "origin_timezone_offset": 1.0,
+    "destination_timezone_offset": 1.0,
+    "source_mode": "synthetic"
+  },
+  "Múnich-Praga": {
+    "departures": [
+      {
+        "depart": 6.0,
+        "arrive": 7.71,
+        "duration_h": 1.71,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 8.5,
+        "arrive": 10.21,
+        "duration_h": 1.71,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 12.0,
+        "arrive": 13.71,
+        "duration_h": 1.71,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 16.0,
+        "arrive": 17.71,
+        "duration_h": 1.71,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 19.5,
+        "arrive": 21.21,
+        "duration_h": 1.71,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      }
+    ],
+    "car_hours": 3.961,
+    "origin_timezone_offset": 1.0,
+    "destination_timezone_offset": 1.0,
+    "source_mode": "synthetic"
+  },
+  "Múnich-Berlín": {
+    "departures": [
+      {
+        "depart": 6.0,
+        "arrive": 8.65,
+        "duration_h": 2.65,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 8.5,
+        "arrive": 11.15,
+        "duration_h": 2.65,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 12.0,
+        "arrive": 14.65,
+        "duration_h": 2.65,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 16.0,
+        "arrive": 18.65,
+        "duration_h": 2.65,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 19.5,
+        "arrive": 22.15,
+        "duration_h": 2.65,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      }
+    ],
+    "car_hours": 5.907,
+    "origin_timezone_offset": 1.0,
+    "destination_timezone_offset": 1.0,
+    "source_mode": "synthetic"
+  },
+  "Múnich-Roma": {
+    "departures": [],
+    "car_hours": 9.789,
+    "origin_timezone_offset": 1.0,
+    "destination_timezone_offset": 1.0,
+    "source_mode": "synthetic"
+  },
+  "Múnich-Milán": {
+    "departures": [
+      {
+        "depart": 6.0,
+        "arrive": 7.94,
+        "duration_h": 1.94,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 8.5,
+        "arrive": 10.44,
+        "duration_h": 1.94,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 12.0,
+        "arrive": 13.94,
+        "duration_h": 1.94,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 16.0,
+        "arrive": 17.94,
+        "duration_h": 1.94,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 19.5,
+        "arrive": 21.44,
+        "duration_h": 1.94,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      }
+    ],
+    "car_hours": 5.842,
+    "origin_timezone_offset": 1.0,
+    "destination_timezone_offset": 1.0,
+    "source_mode": "synthetic"
+  },
+  "Múnich-Zúrich": {
+    "departures": [
+      {
+        "depart": 6.0,
+        "arrive": 7.45,
+        "duration_h": 1.45,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 8.5,
+        "arrive": 9.95,
+        "duration_h": 1.45,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 12.0,
+        "arrive": 13.45,
+        "duration_h": 1.45,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 16.0,
+        "arrive": 17.45,
+        "duration_h": 1.45,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 19.5,
+        "arrive": 20.95,
+        "duration_h": 1.45,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      }
+    ],
+    "car_hours": 3.578,
+    "origin_timezone_offset": 1.0,
+    "destination_timezone_offset": 1.0,
+    "source_mode": "synthetic"
+  },
+  "Múnich-Lisboa": {
+    "departures": [],
+    "car_hours": 25.609,
+    "origin_timezone_offset": 1.0,
+    "destination_timezone_offset": 0.0,
+    "source_mode": "synthetic"
+  },
+  "Múnich-Budapest": {
+    "departures": [
+      {
+        "depart": 6.0,
+        "arrive": 8.91,
+        "duration_h": 2.91,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 8.5,
+        "arrive": 11.41,
+        "duration_h": 2.91,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 12.0,
+        "arrive": 14.91,
+        "duration_h": 2.91,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 16.0,
+        "arrive": 18.91,
+        "duration_h": 2.91,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 19.5,
+        "arrive": 22.41,
+        "duration_h": 2.91,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      }
+    ],
+    "car_hours": 6.798,
+    "origin_timezone_offset": 1.0,
+    "destination_timezone_offset": 1.0,
+    "source_mode": "synthetic"
+  },
+  "Viena-Madrid": {
+    "departures": [],
+    "car_hours": 24.805,
+    "origin_timezone_offset": 1.0,
+    "destination_timezone_offset": 1.0,
+    "source_mode": "synthetic"
+  },
+  "Viena-Barcelona": {
+    "departures": [],
+    "car_hours": 18.857,
+    "origin_timezone_offset": 1.0,
+    "destination_timezone_offset": 1.0,
+    "source_mode": "synthetic"
+  },
+  "Viena-París": {
+    "departures": [],
+    "car_hours": 12.434,
+    "origin_timezone_offset": 1.0,
+    "destination_timezone_offset": 1.0,
+    "source_mode": "synthetic"
+  },
+  "Viena-Amsterdam": {
+    "departures": [],
+    "car_hours": 11.63,
+    "origin_timezone_offset": 1.0,
+    "destination_timezone_offset": 1.0,
+    "source_mode": "synthetic"
+  },
+  "Viena-Bruselas": {
+    "departures": [],
+    "car_hours": 11.125,
+    "origin_timezone_offset": 1.0,
+    "destination_timezone_offset": 1.0,
+    "source_mode": "synthetic"
+  },
+  "Viena-Frankfurt": {
+    "departures": [
+      {
+        "depart": 6.0,
+        "arrive": 9.07,
+        "duration_h": 3.07,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 8.5,
+        "arrive": 11.57,
+        "duration_h": 3.07,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 12.0,
+        "arrive": 15.07,
+        "duration_h": 3.07,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 16.0,
+        "arrive": 19.07,
+        "duration_h": 3.07,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 19.5,
+        "arrive": 22.57,
+        "duration_h": 3.07,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      }
+    ],
+    "car_hours": 7.129,
+    "origin_timezone_offset": 1.0,
+    "destination_timezone_offset": 1.0,
+    "source_mode": "synthetic"
+  },
+  "Viena-Múnich": {
+    "departures": [
+      {
+        "depart": 6.0,
+        "arrive": 7.77,
+        "duration_h": 1.77,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 8.5,
+        "arrive": 10.27,
+        "duration_h": 1.77,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 12.0,
+        "arrive": 13.77,
+        "duration_h": 1.77,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 16.0,
+        "arrive": 17.77,
+        "duration_h": 1.77,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 19.5,
+        "arrive": 21.27,
+        "duration_h": 1.77,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      }
+    ],
+    "car_hours": 4.359,
+    "origin_timezone_offset": 1.0,
+    "destination_timezone_offset": 1.0,
+    "source_mode": "synthetic"
+  },
+  "Viena-Praga": {
+    "departures": [
+      {
+        "depart": 6.0,
+        "arrive": 7.49,
+        "duration_h": 1.49,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 8.5,
+        "arrive": 9.99,
+        "duration_h": 1.49,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 12.0,
+        "arrive": 13.49,
+        "duration_h": 1.49,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 16.0,
+        "arrive": 17.49,
+        "duration_h": 1.49,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 19.5,
+        "arrive": 20.99,
+        "duration_h": 1.49,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      }
+    ],
+    "car_hours": 3.744,
+    "origin_timezone_offset": 1.0,
+    "destination_timezone_offset": 1.0,
+    "source_mode": "synthetic"
+  },
+  "Viena-Berlín": {
+    "departures": [
+      {
+        "depart": 6.0,
+        "arrive": 8.74,
+        "duration_h": 2.74,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 8.5,
+        "arrive": 11.24,
+        "duration_h": 2.74,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 12.0,
+        "arrive": 14.74,
+        "duration_h": 2.74,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 16.0,
+        "arrive": 18.74,
+        "duration_h": 2.74,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 19.5,
+        "arrive": 22.24,
+        "duration_h": 2.74,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      }
+    ],
+    "car_hours": 7.49,
+    "origin_timezone_offset": 1.0,
+    "destination_timezone_offset": 1.0,
+    "source_mode": "synthetic"
+  },
+  "Viena-Roma": {
+    "departures": [
+      {
+        "depart": 6.0,
+        "arrive": 9.83,
+        "duration_h": 3.83,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 8.5,
+        "arrive": 12.33,
+        "duration_h": 3.83,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 12.0,
+        "arrive": 15.83,
+        "duration_h": 3.83,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 16.0,
+        "arrive": 19.83,
+        "duration_h": 3.83,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 19.5,
+        "arrive": 23.33,
+        "duration_h": 3.83,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      }
+    ],
+    "car_hours": 11.609,
+    "origin_timezone_offset": 1.0,
+    "destination_timezone_offset": 1.0,
+    "source_mode": "synthetic"
+  },
+  "Viena-Milán": {
+    "departures": [
+      {
+        "depart": 6.0,
+        "arrive": 9.2,
+        "duration_h": 3.2,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 8.5,
+        "arrive": 11.7,
+        "duration_h": 3.2,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 12.0,
+        "arrive": 15.2,
+        "duration_h": 3.2,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 16.0,
+        "arrive": 19.2,
+        "duration_h": 3.2,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 19.5,
+        "arrive": 22.7,
+        "duration_h": 3.2,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      }
+    ],
+    "car_hours": 9.077,
+    "origin_timezone_offset": 1.0,
+    "destination_timezone_offset": 1.0,
+    "source_mode": "synthetic"
+  },
+  "Viena-Zúrich": {
+    "departures": [
+      {
+        "depart": 6.0,
+        "arrive": 9.05,
+        "duration_h": 3.05,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 8.5,
+        "arrive": 11.55,
+        "duration_h": 3.05,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 12.0,
+        "arrive": 15.05,
+        "duration_h": 3.05,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 16.0,
+        "arrive": 19.05,
+        "duration_h": 3.05,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 19.5,
+        "arrive": 22.55,
+        "duration_h": 3.05,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      }
+    ],
+    "car_hours": 7.741,
+    "origin_timezone_offset": 1.0,
+    "destination_timezone_offset": 1.0,
+    "source_mode": "synthetic"
+  },
+  "Viena-Lisboa": {
+    "departures": [],
+    "car_hours": 29.63,
+    "origin_timezone_offset": 1.0,
+    "destination_timezone_offset": 0.0,
+    "source_mode": "synthetic"
+  },
+  "Viena-Budapest": {
+    "departures": [
+      {
+        "depart": 6.0,
+        "arrive": 7.21,
+        "duration_h": 1.21,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 8.5,
+        "arrive": 9.71,
+        "duration_h": 1.21,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 12.0,
+        "arrive": 13.21,
+        "duration_h": 1.21,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 16.0,
+        "arrive": 17.21,
+        "duration_h": 1.21,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 19.5,
+        "arrive": 20.71,
+        "duration_h": 1.21,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      }
+    ],
+    "car_hours": 2.642,
+    "origin_timezone_offset": 1.0,
+    "destination_timezone_offset": 1.0,
+    "source_mode": "synthetic"
+  },
+  "Praga-Madrid": {
+    "departures": [],
+    "car_hours": 22.943,
+    "origin_timezone_offset": 1.0,
+    "destination_timezone_offset": 1.0,
+    "source_mode": "synthetic"
+  },
+  "Praga-Barcelona": {
+    "departures": [],
+    "car_hours": 17.287,
+    "origin_timezone_offset": 1.0,
+    "destination_timezone_offset": 1.0,
+    "source_mode": "synthetic"
+  },
+  "Praga-París": {
+    "departures": [],
+    "car_hours": 10.33,
+    "origin_timezone_offset": 1.0,
+    "destination_timezone_offset": 1.0,
+    "source_mode": "synthetic"
+  },
+  "Praga-Amsterdam": {
+    "departures": [
+      {
+        "depart": 6.0,
+        "arrive": 9.59,
+        "duration_h": 3.59,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 8.5,
+        "arrive": 12.09,
+        "duration_h": 3.59,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 12.0,
+        "arrive": 15.59,
+        "duration_h": 3.59,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 16.0,
+        "arrive": 19.59,
+        "duration_h": 3.59,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 19.5,
+        "arrive": 23.09,
+        "duration_h": 3.59,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      }
+    ],
+    "car_hours": 9.001,
+    "origin_timezone_offset": 1.0,
+    "destination_timezone_offset": 1.0,
+    "source_mode": "synthetic"
+  },
+  "Praga-Bruselas": {
+    "departures": [],
+    "car_hours": 9.043,
+    "origin_timezone_offset": 1.0,
+    "destination_timezone_offset": 1.0,
+    "source_mode": "synthetic"
+  },
+  "Praga-Frankfurt": {
+    "departures": [
+      {
+        "depart": 6.0,
+        "arrive": 8.22,
+        "duration_h": 2.22,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 8.5,
+        "arrive": 10.72,
+        "duration_h": 2.22,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 12.0,
+        "arrive": 14.22,
+        "duration_h": 2.22,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 16.0,
+        "arrive": 18.22,
+        "duration_h": 2.22,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 19.5,
+        "arrive": 21.72,
+        "duration_h": 2.22,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      }
+    ],
+    "car_hours": 5.048,
+    "origin_timezone_offset": 1.0,
+    "destination_timezone_offset": 1.0,
+    "source_mode": "synthetic"
+  },
+  "Praga-Múnich": {
+    "departures": [
+      {
+        "depart": 6.0,
+        "arrive": 7.71,
+        "duration_h": 1.71,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 8.5,
+        "arrive": 10.21,
+        "duration_h": 1.71,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 12.0,
+        "arrive": 13.71,
+        "duration_h": 1.71,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 16.0,
+        "arrive": 17.71,
+        "duration_h": 1.71,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 19.5,
+        "arrive": 21.21,
+        "duration_h": 1.71,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      }
+    ],
+    "car_hours": 3.96,
+    "origin_timezone_offset": 1.0,
+    "destination_timezone_offset": 1.0,
+    "source_mode": "synthetic"
+  },
+  "Praga-Viena": {
+    "departures": [
+      {
+        "depart": 6.0,
+        "arrive": 7.49,
+        "duration_h": 1.49,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 8.5,
+        "arrive": 9.99,
+        "duration_h": 1.49,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 12.0,
+        "arrive": 13.49,
+        "duration_h": 1.49,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 16.0,
+        "arrive": 17.49,
+        "duration_h": 1.49,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 19.5,
+        "arrive": 20.99,
+        "duration_h": 1.49,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      }
+    ],
+    "car_hours": 3.719,
+    "origin_timezone_offset": 1.0,
+    "destination_timezone_offset": 1.0,
+    "source_mode": "synthetic"
+  },
+  "Praga-Berlín": {
+    "departures": [
+      {
+        "depart": 6.0,
+        "arrive": 7.63,
+        "duration_h": 1.63,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 8.5,
+        "arrive": 10.13,
+        "duration_h": 1.63,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 12.0,
+        "arrive": 13.63,
+        "duration_h": 1.63,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 16.0,
+        "arrive": 17.63,
+        "duration_h": 1.63,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 19.5,
+        "arrive": 21.13,
+        "duration_h": 1.63,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      }
+    ],
+    "car_hours": 3.805,
+    "origin_timezone_offset": 1.0,
+    "destination_timezone_offset": 1.0,
+    "source_mode": "synthetic"
+  },
+  "Praga-Roma": {
+    "departures": [],
+    "car_hours": 13.502,
+    "origin_timezone_offset": 1.0,
+    "destination_timezone_offset": 1.0,
+    "source_mode": "synthetic"
+  },
+  "Praga-Milán": {
+    "departures": [
+      {
+        "depart": 6.0,
+        "arrive": 9.29,
+        "duration_h": 3.29,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 8.5,
+        "arrive": 11.79,
+        "duration_h": 3.29,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 12.0,
+        "arrive": 15.29,
+        "duration_h": 3.29,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 16.0,
+        "arrive": 19.29,
+        "duration_h": 3.29,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 19.5,
+        "arrive": 22.79,
+        "duration_h": 3.29,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      }
+    ],
+    "car_hours": 9.411,
+    "origin_timezone_offset": 1.0,
+    "destination_timezone_offset": 1.0,
+    "source_mode": "synthetic"
+  },
+  "Praga-Zúrich": {
+    "departures": [
+      {
+        "depart": 6.0,
+        "arrive": 8.75,
+        "duration_h": 2.75,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 8.5,
+        "arrive": 11.25,
+        "duration_h": 2.75,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 12.0,
+        "arrive": 14.75,
+        "duration_h": 2.75,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 16.0,
+        "arrive": 18.75,
+        "duration_h": 2.75,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 19.5,
+        "arrive": 22.25,
+        "duration_h": 2.75,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      }
+    ],
+    "car_hours": 7.147,
+    "origin_timezone_offset": 1.0,
+    "destination_timezone_offset": 1.0,
+    "source_mode": "synthetic"
+  },
+  "Praga-Lisboa": {
+    "departures": [],
+    "car_hours": 27.767,
+    "origin_timezone_offset": 1.0,
+    "destination_timezone_offset": 0.0,
+    "source_mode": "synthetic"
+  },
+  "Praga-Budapest": {
+    "departures": [
+      {
+        "depart": 6.0,
+        "arrive": 8.37,
+        "duration_h": 2.37,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 8.5,
+        "arrive": 10.87,
+        "duration_h": 2.37,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 12.0,
+        "arrive": 14.37,
+        "duration_h": 2.37,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 16.0,
+        "arrive": 18.37,
+        "duration_h": 2.37,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 19.5,
+        "arrive": 21.87,
+        "duration_h": 2.37,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      }
+    ],
+    "car_hours": 5.348,
+    "origin_timezone_offset": 1.0,
+    "destination_timezone_offset": 1.0,
+    "source_mode": "synthetic"
+  },
+  "Berlín-Madrid": {
+    "departures": [],
+    "car_hours": 23.906,
+    "origin_timezone_offset": 1.0,
+    "destination_timezone_offset": 1.0,
+    "source_mode": "synthetic"
+  },
+  "Berlín-Barcelona": {
+    "departures": [],
+    "car_hours": 18.816,
+    "origin_timezone_offset": 1.0,
+    "destination_timezone_offset": 1.0,
+    "source_mode": "synthetic"
+  },
+  "Berlín-París": {
+    "departures": [],
+    "car_hours": 10.769,
+    "origin_timezone_offset": 1.0,
+    "destination_timezone_offset": 1.0,
+    "source_mode": "synthetic"
+  },
+  "Berlín-Amsterdam": {
+    "departures": [
+      {
+        "depart": 6.0,
+        "arrive": 8.97,
+        "duration_h": 2.97,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 8.5,
+        "arrive": 11.47,
+        "duration_h": 2.97,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 12.0,
+        "arrive": 14.97,
+        "duration_h": 2.97,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 16.0,
+        "arrive": 18.97,
+        "duration_h": 2.97,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 19.5,
+        "arrive": 22.47,
+        "duration_h": 2.97,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      }
+    ],
+    "car_hours": 6.96,
+    "origin_timezone_offset": 1.0,
+    "destination_timezone_offset": 1.0,
+    "source_mode": "synthetic"
+  },
+  "Berlín-Bruselas": {
+    "departures": [
+      {
+        "depart": 6.0,
+        "arrive": 9.31,
+        "duration_h": 3.31,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 8.5,
+        "arrive": 11.81,
+        "duration_h": 3.31,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 12.0,
+        "arrive": 15.31,
+        "duration_h": 3.31,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 16.0,
+        "arrive": 19.31,
+        "duration_h": 3.31,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 19.5,
+        "arrive": 22.81,
+        "duration_h": 3.31,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      }
+    ],
+    "car_hours": 7.806,
+    "origin_timezone_offset": 1.0,
+    "destination_timezone_offset": 1.0,
+    "source_mode": "synthetic"
+  },
+  "Berlín-Frankfurt": {
+    "departures": [
+      {
+        "depart": 6.0,
+        "arrive": 8.28,
+        "duration_h": 2.28,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 8.5,
+        "arrive": 10.78,
+        "duration_h": 2.28,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 12.0,
+        "arrive": 14.28,
+        "duration_h": 2.28,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 16.0,
+        "arrive": 18.28,
+        "duration_h": 2.28,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 19.5,
+        "arrive": 21.78,
+        "duration_h": 2.28,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      }
+    ],
+    "car_hours": 5.573,
+    "origin_timezone_offset": 1.0,
+    "destination_timezone_offset": 1.0,
+    "source_mode": "synthetic"
+  },
+  "Berlín-Múnich": {
+    "departures": [
+      {
+        "depart": 6.0,
+        "arrive": 8.65,
+        "duration_h": 2.65,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 8.5,
+        "arrive": 11.15,
+        "duration_h": 2.65,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 12.0,
+        "arrive": 14.65,
+        "duration_h": 2.65,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 16.0,
+        "arrive": 18.65,
+        "duration_h": 2.65,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 19.5,
+        "arrive": 22.15,
+        "duration_h": 2.65,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      }
+    ],
+    "car_hours": 5.893,
+    "origin_timezone_offset": 1.0,
+    "destination_timezone_offset": 1.0,
+    "source_mode": "synthetic"
+  },
+  "Berlín-Viena": {
+    "departures": [
+      {
+        "depart": 6.0,
+        "arrive": 8.74,
+        "duration_h": 2.74,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 8.5,
+        "arrive": 11.24,
+        "duration_h": 2.74,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 12.0,
+        "arrive": 14.74,
+        "duration_h": 2.74,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 16.0,
+        "arrive": 18.74,
+        "duration_h": 2.74,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 19.5,
+        "arrive": 22.24,
+        "duration_h": 2.74,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      }
+    ],
+    "car_hours": 7.445,
+    "origin_timezone_offset": 1.0,
+    "destination_timezone_offset": 1.0,
+    "source_mode": "synthetic"
+  },
+  "Berlín-Praga": {
+    "departures": [
+      {
+        "depart": 6.0,
+        "arrive": 7.63,
+        "duration_h": 1.63,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 8.5,
+        "arrive": 10.13,
+        "duration_h": 1.63,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 12.0,
+        "arrive": 13.63,
+        "duration_h": 1.63,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 16.0,
+        "arrive": 17.63,
+        "duration_h": 1.63,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 19.5,
+        "arrive": 21.13,
+        "duration_h": 1.63,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      }
+    ],
+    "car_hours": 3.816,
+    "origin_timezone_offset": 1.0,
+    "destination_timezone_offset": 1.0,
+    "source_mode": "synthetic"
+  },
+  "Berlín-Roma": {
+    "departures": [],
+    "car_hours": 15.436,
+    "origin_timezone_offset": 1.0,
+    "destination_timezone_offset": 1.0,
+    "source_mode": "synthetic"
+  },
+  "Berlín-Milán": {
+    "departures": [],
+    "car_hours": 11.033,
+    "origin_timezone_offset": 1.0,
+    "destination_timezone_offset": 1.0,
+    "source_mode": "synthetic"
+  },
+  "Berlín-Zúrich": {
+    "departures": [
+      {
+        "depart": 6.0,
+        "arrive": 9.4,
+        "duration_h": 3.4,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 8.5,
+        "arrive": 11.9,
+        "duration_h": 3.4,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 12.0,
+        "arrive": 15.4,
+        "duration_h": 3.4,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 16.0,
+        "arrive": 19.4,
+        "duration_h": 3.4,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 19.5,
+        "arrive": 22.9,
+        "duration_h": 3.4,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      }
+    ],
+    "car_hours": 8.769,
+    "origin_timezone_offset": 1.0,
+    "destination_timezone_offset": 1.0,
+    "source_mode": "synthetic"
+  },
+  "Berlín-Lisboa": {
+    "departures": [],
+    "car_hours": 28.73,
+    "origin_timezone_offset": 1.0,
+    "destination_timezone_offset": 0.0,
+    "source_mode": "synthetic"
+  },
+  "Berlín-Budapest": {
+    "departures": [
+      {
+        "depart": 6.0,
+        "arrive": 9.48,
+        "duration_h": 3.48,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 8.5,
+        "arrive": 11.98,
+        "duration_h": 3.48,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 12.0,
+        "arrive": 15.48,
+        "duration_h": 3.48,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 16.0,
+        "arrive": 19.48,
+        "duration_h": 3.48,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 19.5,
+        "arrive": 22.98,
+        "duration_h": 3.48,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      }
+    ],
+    "car_hours": 9.075,
+    "origin_timezone_offset": 1.0,
+    "destination_timezone_offset": 1.0,
+    "source_mode": "synthetic"
+  },
+  "Roma-Madrid": {
+    "departures": [],
+    "car_hours": 20.942,
+    "origin_timezone_offset": 1.0,
+    "destination_timezone_offset": 1.0,
+    "source_mode": "synthetic"
+  },
+  "Roma-Barcelona": {
+    "departures": [],
+    "car_hours": 14.681,
+    "origin_timezone_offset": 1.0,
+    "destination_timezone_offset": 1.0,
+    "source_mode": "synthetic"
+  },
+  "Roma-París": {
+    "departures": [],
+    "car_hours": 15.164,
+    "origin_timezone_offset": 1.0,
+    "destination_timezone_offset": 1.0,
+    "source_mode": "synthetic"
+  },
+  "Roma-Amsterdam": {
+    "departures": [],
+    "car_hours": 17.431,
+    "origin_timezone_offset": 1.0,
+    "destination_timezone_offset": 1.0,
+    "source_mode": "synthetic"
+  },
+  "Roma-Bruselas": {
+    "departures": [],
+    "car_hours": 16.031,
+    "origin_timezone_offset": 1.0,
+    "destination_timezone_offset": 1.0,
+    "source_mode": "synthetic"
+  },
+  "Roma-Frankfurt": {
+    "departures": [],
+    "car_hours": 13.078,
+    "origin_timezone_offset": 1.0,
+    "destination_timezone_offset": 1.0,
+    "source_mode": "synthetic"
+  },
+  "Roma-Múnich": {
+    "departures": [
+      {
+        "depart": 6.0,
+        "arrive": 9.52,
+        "duration_h": 3.52,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 8.5,
+        "arrive": 12.02,
+        "duration_h": 3.52,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 12.0,
+        "arrive": 15.52,
+        "duration_h": 3.52,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 16.0,
+        "arrive": 19.52,
+        "duration_h": 3.52,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 19.5,
+        "arrive": 23.02,
+        "duration_h": 3.52,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      }
+    ],
+    "car_hours": 9.763,
+    "origin_timezone_offset": 1.0,
+    "destination_timezone_offset": 1.0,
+    "source_mode": "synthetic"
+  },
+  "Roma-Viena": {
+    "departures": [
+      {
+        "depart": 6.0,
+        "arrive": 9.83,
+        "duration_h": 3.83,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 8.5,
+        "arrive": 12.33,
+        "duration_h": 3.83,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 12.0,
+        "arrive": 15.83,
+        "duration_h": 3.83,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 16.0,
+        "arrive": 19.83,
+        "duration_h": 3.83,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 19.5,
+        "arrive": 23.33,
+        "duration_h": 3.83,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      }
+    ],
+    "car_hours": 11.631,
+    "origin_timezone_offset": 1.0,
+    "destination_timezone_offset": 1.0,
+    "source_mode": "synthetic"
+  },
+  "Roma-Praga": {
+    "departures": [],
+    "car_hours": 13.535,
+    "origin_timezone_offset": 1.0,
+    "destination_timezone_offset": 1.0,
+    "source_mode": "synthetic"
+  },
+  "Roma-Berlín": {
+    "departures": [],
+    "car_hours": 15.482,
+    "origin_timezone_offset": 1.0,
+    "destination_timezone_offset": 1.0,
+    "source_mode": "synthetic"
+  },
+  "Roma-Milán": {
+    "departures": [
+      {
+        "depart": 6.0,
+        "arrive": 8.26,
+        "duration_h": 2.26,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 8.5,
+        "arrive": 10.76,
+        "duration_h": 2.26,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 12.0,
+        "arrive": 14.26,
+        "duration_h": 2.26,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 16.0,
+        "arrive": 18.26,
+        "duration_h": 2.26,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 19.5,
+        "arrive": 21.76,
+        "duration_h": 2.26,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      }
+    ],
+    "car_hours": 5.979,
+    "origin_timezone_offset": 1.0,
+    "destination_timezone_offset": 1.0,
+    "source_mode": "synthetic"
+  },
+  "Roma-Zúrich": {
+    "departures": [
+      {
+        "depart": 6.0,
+        "arrive": 9.47,
+        "duration_h": 3.47,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 8.5,
+        "arrive": 11.97,
+        "duration_h": 3.47,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 12.0,
+        "arrive": 15.47,
+        "duration_h": 3.47,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 16.0,
+        "arrive": 19.47,
+        "duration_h": 3.47,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 19.5,
+        "arrive": 22.97,
+        "duration_h": 3.47,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      }
+    ],
+    "car_hours": 9.381,
+    "origin_timezone_offset": 1.0,
+    "destination_timezone_offset": 1.0,
+    "source_mode": "synthetic"
+  },
+  "Roma-Lisboa": {
+    "departures": [],
+    "car_hours": 26.642,
+    "origin_timezone_offset": 1.0,
+    "destination_timezone_offset": 0.0,
+    "source_mode": "synthetic"
+  },
+  "Roma-Budapest": {
+    "departures": [],
+    "car_hours": 12.491,
+    "origin_timezone_offset": 1.0,
+    "destination_timezone_offset": 1.0,
+    "source_mode": "synthetic"
+  },
+  "Milán-Madrid": {
+    "departures": [],
+    "car_hours": 16.892,
+    "origin_timezone_offset": 1.0,
+    "destination_timezone_offset": 1.0,
+    "source_mode": "synthetic"
+  },
+  "Milán-Barcelona": {
+    "departures": [],
+    "car_hours": 10.63,
+    "origin_timezone_offset": 1.0,
+    "destination_timezone_offset": 1.0,
+    "source_mode": "synthetic"
+  },
+  "Milán-París": {
+    "departures": [
+      {
+        "depart": 6.0,
+        "arrive": 9.26,
+        "duration_h": 3.26,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 8.5,
+        "arrive": 11.76,
+        "duration_h": 3.26,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 12.0,
+        "arrive": 15.26,
+        "duration_h": 3.26,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 16.0,
+        "arrive": 19.26,
+        "duration_h": 3.26,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 19.5,
+        "arrive": 22.76,
+        "duration_h": 3.26,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      }
+    ],
+    "car_hours": 9.406,
+    "origin_timezone_offset": 1.0,
+    "destination_timezone_offset": 1.0,
+    "source_mode": "synthetic"
+  },
+  "Milán-Amsterdam": {
+    "departures": [],
+    "car_hours": 11.635,
+    "origin_timezone_offset": 1.0,
+    "destination_timezone_offset": 1.0,
+    "source_mode": "synthetic"
+  },
+  "Milán-Bruselas": {
+    "departures": [],
+    "car_hours": 10.234,
+    "origin_timezone_offset": 1.0,
+    "destination_timezone_offset": 1.0,
+    "source_mode": "synthetic"
+  },
+  "Milán-Frankfurt": {
+    "departures": [
+      {
+        "depart": 6.0,
+        "arrive": 8.71,
+        "duration_h": 2.71,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 8.5,
+        "arrive": 11.21,
+        "duration_h": 2.71,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 12.0,
+        "arrive": 14.71,
+        "duration_h": 2.71,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 16.0,
+        "arrive": 18.71,
+        "duration_h": 2.71,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 19.5,
+        "arrive": 22.21,
+        "duration_h": 2.71,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      }
+    ],
+    "car_hours": 7.281,
+    "origin_timezone_offset": 1.0,
+    "destination_timezone_offset": 1.0,
+    "source_mode": "synthetic"
+  },
+  "Milán-Múnich": {
+    "departures": [
+      {
+        "depart": 6.0,
+        "arrive": 7.94,
+        "duration_h": 1.94,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 8.5,
+        "arrive": 10.44,
+        "duration_h": 1.94,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 12.0,
+        "arrive": 13.94,
+        "duration_h": 1.94,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 16.0,
+        "arrive": 17.94,
+        "duration_h": 1.94,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 19.5,
+        "arrive": 21.44,
+        "duration_h": 1.94,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      }
+    ],
+    "car_hours": 5.839,
+    "origin_timezone_offset": 1.0,
+    "destination_timezone_offset": 1.0,
+    "source_mode": "synthetic"
+  },
+  "Milán-Viena": {
+    "departures": [
+      {
+        "depart": 6.0,
+        "arrive": 9.2,
+        "duration_h": 3.2,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 8.5,
+        "arrive": 11.7,
+        "duration_h": 3.2,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 12.0,
+        "arrive": 15.2,
+        "duration_h": 3.2,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 16.0,
+        "arrive": 19.2,
+        "duration_h": 3.2,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 19.5,
+        "arrive": 22.7,
+        "duration_h": 3.2,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      }
+    ],
+    "car_hours": 9.121,
+    "origin_timezone_offset": 1.0,
+    "destination_timezone_offset": 1.0,
+    "source_mode": "synthetic"
+  },
+  "Milán-Praga": {
+    "departures": [
+      {
+        "depart": 6.0,
+        "arrive": 9.29,
+        "duration_h": 3.29,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 8.5,
+        "arrive": 11.79,
+        "duration_h": 3.29,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 12.0,
+        "arrive": 15.29,
+        "duration_h": 3.29,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 16.0,
+        "arrive": 19.29,
+        "duration_h": 3.29,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 19.5,
+        "arrive": 22.79,
+        "duration_h": 3.29,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      }
+    ],
+    "car_hours": 9.457,
+    "origin_timezone_offset": 1.0,
+    "destination_timezone_offset": 1.0,
+    "source_mode": "synthetic"
+  },
+  "Milán-Berlín": {
+    "departures": [],
+    "car_hours": 11.012,
+    "origin_timezone_offset": 1.0,
+    "destination_timezone_offset": 1.0,
+    "source_mode": "synthetic"
+  },
+  "Milán-Roma": {
+    "departures": [
+      {
+        "depart": 6.0,
+        "arrive": 8.26,
+        "duration_h": 2.26,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 8.5,
+        "arrive": 10.76,
+        "duration_h": 2.26,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 12.0,
+        "arrive": 14.26,
+        "duration_h": 2.26,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 16.0,
+        "arrive": 18.26,
+        "duration_h": 2.26,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 19.5,
+        "arrive": 21.76,
+        "duration_h": 2.26,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      }
+    ],
+    "car_hours": 5.957,
+    "origin_timezone_offset": 1.0,
+    "destination_timezone_offset": 1.0,
+    "source_mode": "synthetic"
+  },
+  "Milán-Zúrich": {
+    "departures": [
+      {
+        "depart": 6.0,
+        "arrive": 7.34,
+        "duration_h": 1.34,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 8.5,
+        "arrive": 9.84,
+        "duration_h": 1.34,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 12.0,
+        "arrive": 13.34,
+        "duration_h": 1.34,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 16.0,
+        "arrive": 17.34,
+        "duration_h": 1.34,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 19.5,
+        "arrive": 20.84,
+        "duration_h": 1.34,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      }
+    ],
+    "car_hours": 3.585,
+    "origin_timezone_offset": 1.0,
+    "destination_timezone_offset": 1.0,
+    "source_mode": "synthetic"
+  },
+  "Milán-Lisboa": {
+    "departures": [],
+    "car_hours": 22.591,
+    "origin_timezone_offset": 1.0,
+    "destination_timezone_offset": 0.0,
+    "source_mode": "synthetic"
+  },
+  "Milán-Budapest": {
+    "departures": [],
+    "car_hours": 9.981,
+    "origin_timezone_offset": 1.0,
+    "destination_timezone_offset": 1.0,
+    "source_mode": "synthetic"
+  },
+  "Zúrich-Madrid": {
+    "departures": [],
+    "car_hours": 17.556,
+    "origin_timezone_offset": 1.0,
+    "destination_timezone_offset": 1.0,
+    "source_mode": "synthetic"
+  },
+  "Zúrich-Barcelona": {
+    "departures": [],
+    "car_hours": 11.294,
+    "origin_timezone_offset": 1.0,
+    "destination_timezone_offset": 1.0,
+    "source_mode": "synthetic"
+  },
+  "Zúrich-París": {
+    "departures": [
+      {
+        "depart": 6.0,
+        "arrive": 8.57,
+        "duration_h": 2.57,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 8.5,
+        "arrive": 11.07,
+        "duration_h": 2.57,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 12.0,
+        "arrive": 14.57,
+        "duration_h": 2.57,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 16.0,
+        "arrive": 18.57,
+        "duration_h": 2.57,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 19.5,
+        "arrive": 22.07,
+        "duration_h": 2.57,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      }
+    ],
+    "car_hours": 7.013,
+    "origin_timezone_offset": 1.0,
+    "destination_timezone_offset": 1.0,
+    "source_mode": "synthetic"
+  },
+  "Zúrich-Amsterdam": {
+    "departures": [
+      {
+        "depart": 6.0,
+        "arrive": 9.14,
+        "duration_h": 3.14,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 8.5,
+        "arrive": 11.64,
+        "duration_h": 3.14,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 12.0,
+        "arrive": 15.14,
+        "duration_h": 3.14,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 16.0,
+        "arrive": 19.14,
+        "duration_h": 3.14,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 19.5,
+        "arrive": 22.64,
+        "duration_h": 3.14,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      }
+    ],
+    "car_hours": 8.573,
+    "origin_timezone_offset": 1.0,
+    "destination_timezone_offset": 1.0,
+    "source_mode": "synthetic"
+  },
+  "Zúrich-Bruselas": {
+    "departures": [
+      {
+        "depart": 6.0,
+        "arrive": 8.59,
+        "duration_h": 2.59,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 8.5,
+        "arrive": 11.09,
+        "duration_h": 2.59,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 12.0,
+        "arrive": 14.59,
+        "duration_h": 2.59,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 16.0,
+        "arrive": 18.59,
+        "duration_h": 2.59,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 19.5,
+        "arrive": 22.09,
+        "duration_h": 2.59,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      }
+    ],
+    "car_hours": 7.187,
+    "origin_timezone_offset": 1.0,
+    "destination_timezone_offset": 1.0,
+    "source_mode": "synthetic"
+  },
+  "Zúrich-Frankfurt": {
+    "departures": [
+      {
+        "depart": 6.0,
+        "arrive": 7.74,
+        "duration_h": 1.74,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 8.5,
+        "arrive": 10.24,
+        "duration_h": 1.74,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 12.0,
+        "arrive": 13.74,
+        "duration_h": 1.74,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 16.0,
+        "arrive": 17.74,
+        "duration_h": 1.74,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 19.5,
+        "arrive": 21.24,
+        "duration_h": 1.74,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      }
+    ],
+    "car_hours": 4.219,
+    "origin_timezone_offset": 1.0,
+    "destination_timezone_offset": 1.0,
+    "source_mode": "synthetic"
+  },
+  "Zúrich-Múnich": {
+    "departures": [
+      {
+        "depart": 6.0,
+        "arrive": 7.45,
+        "duration_h": 1.45,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 8.5,
+        "arrive": 9.95,
+        "duration_h": 1.45,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 12.0,
+        "arrive": 13.45,
+        "duration_h": 1.45,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 16.0,
+        "arrive": 17.45,
+        "duration_h": 1.45,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 19.5,
+        "arrive": 20.95,
+        "duration_h": 1.45,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      }
+    ],
+    "car_hours": 3.528,
+    "origin_timezone_offset": 1.0,
+    "destination_timezone_offset": 1.0,
+    "source_mode": "synthetic"
+  },
+  "Zúrich-Viena": {
+    "departures": [
+      {
+        "depart": 6.0,
+        "arrive": 9.05,
+        "duration_h": 3.05,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 8.5,
+        "arrive": 11.55,
+        "duration_h": 3.05,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 12.0,
+        "arrive": 15.05,
+        "duration_h": 3.05,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 16.0,
+        "arrive": 19.05,
+        "duration_h": 3.05,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 19.5,
+        "arrive": 22.55,
+        "duration_h": 3.05,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      }
+    ],
+    "car_hours": 7.771,
+    "origin_timezone_offset": 1.0,
+    "destination_timezone_offset": 1.0,
+    "source_mode": "synthetic"
+  },
+  "Zúrich-Praga": {
+    "departures": [
+      {
+        "depart": 6.0,
+        "arrive": 8.75,
+        "duration_h": 2.75,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 8.5,
+        "arrive": 11.25,
+        "duration_h": 2.75,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 12.0,
+        "arrive": 14.75,
+        "duration_h": 2.75,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 16.0,
+        "arrive": 18.75,
+        "duration_h": 2.75,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 19.5,
+        "arrive": 22.25,
+        "duration_h": 2.75,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      }
+    ],
+    "car_hours": 7.146,
+    "origin_timezone_offset": 1.0,
+    "destination_timezone_offset": 1.0,
+    "source_mode": "synthetic"
+  },
+  "Zúrich-Berlín": {
+    "departures": [
+      {
+        "depart": 6.0,
+        "arrive": 9.4,
+        "duration_h": 3.4,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 8.5,
+        "arrive": 11.9,
+        "duration_h": 3.4,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 12.0,
+        "arrive": 15.4,
+        "duration_h": 3.4,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 16.0,
+        "arrive": 19.4,
+        "duration_h": 3.4,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 19.5,
+        "arrive": 22.9,
+        "duration_h": 3.4,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      }
+    ],
+    "car_hours": 8.7,
+    "origin_timezone_offset": 1.0,
+    "destination_timezone_offset": 1.0,
+    "source_mode": "synthetic"
+  },
+  "Zúrich-Roma": {
+    "departures": [
+      {
+        "depart": 6.0,
+        "arrive": 9.47,
+        "duration_h": 3.47,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 8.5,
+        "arrive": 11.97,
+        "duration_h": 3.47,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 12.0,
+        "arrive": 15.47,
+        "duration_h": 3.47,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 16.0,
+        "arrive": 19.47,
+        "duration_h": 3.47,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 19.5,
+        "arrive": 22.97,
+        "duration_h": 3.47,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      }
+    ],
+    "car_hours": 9.352,
+    "origin_timezone_offset": 1.0,
+    "destination_timezone_offset": 1.0,
+    "source_mode": "synthetic"
+  },
+  "Zúrich-Milán": {
+    "departures": [
+      {
+        "depart": 6.0,
+        "arrive": 7.34,
+        "duration_h": 1.34,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 8.5,
+        "arrive": 9.84,
+        "duration_h": 1.34,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 12.0,
+        "arrive": 13.34,
+        "duration_h": 1.34,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 16.0,
+        "arrive": 17.34,
+        "duration_h": 1.34,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 19.5,
+        "arrive": 20.84,
+        "duration_h": 1.34,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      }
+    ],
+    "car_hours": 3.557,
+    "origin_timezone_offset": 1.0,
+    "destination_timezone_offset": 1.0,
+    "source_mode": "synthetic"
+  },
+  "Zúrich-Lisboa": {
+    "departures": [],
+    "car_hours": 22.459,
+    "origin_timezone_offset": 1.0,
+    "destination_timezone_offset": 0.0,
+    "source_mode": "synthetic"
+  },
+  "Zúrich-Budapest": {
+    "departures": [],
+    "car_hours": 10.155,
+    "origin_timezone_offset": 1.0,
+    "destination_timezone_offset": 1.0,
+    "source_mode": "synthetic"
+  },
+  "Lisboa-Madrid": {
+    "departures": [
+      {
+        "depart": 6.0,
+        "arrive": 8.64,
+        "duration_h": 2.64,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 8.5,
+        "arrive": 11.14,
+        "duration_h": 2.64,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 12.0,
+        "arrive": 14.64,
+        "duration_h": 2.64,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 16.0,
+        "arrive": 18.64,
+        "duration_h": 2.64,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 19.5,
+        "arrive": 22.14,
+        "duration_h": 2.64,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      }
+    ],
+    "car_hours": 6.847,
+    "origin_timezone_offset": 0.0,
+    "destination_timezone_offset": 1.0,
+    "source_mode": "synthetic"
+  },
+  "Lisboa-Barcelona": {
+    "departures": [],
+    "car_hours": 13.434,
+    "origin_timezone_offset": 0.0,
+    "destination_timezone_offset": 1.0,
+    "source_mode": "synthetic"
+  },
+  "Lisboa-París": {
+    "departures": [],
+    "car_hours": 18.312,
+    "origin_timezone_offset": 0.0,
+    "destination_timezone_offset": 1.0,
+    "source_mode": "synthetic"
+  },
+  "Lisboa-Amsterdam": {
+    "departures": [],
+    "car_hours": 23.85,
+    "origin_timezone_offset": 0.0,
+    "destination_timezone_offset": 1.0,
+    "source_mode": "synthetic"
+  },
+  "Lisboa-Bruselas": {
+    "departures": [],
+    "car_hours": 21.669,
+    "origin_timezone_offset": 0.0,
+    "destination_timezone_offset": 1.0,
+    "source_mode": "synthetic"
+  },
+  "Lisboa-Frankfurt": {
+    "departures": [],
+    "car_hours": 23.816,
+    "origin_timezone_offset": 0.0,
+    "destination_timezone_offset": 1.0,
+    "source_mode": "synthetic"
+  },
+  "Lisboa-Múnich": {
+    "departures": [],
+    "car_hours": 25.521,
+    "origin_timezone_offset": 0.0,
+    "destination_timezone_offset": 1.0,
+    "source_mode": "synthetic"
+  },
+  "Lisboa-Viena": {
+    "departures": [],
+    "car_hours": 29.628,
+    "origin_timezone_offset": 0.0,
+    "destination_timezone_offset": 1.0,
+    "source_mode": "synthetic"
+  },
+  "Lisboa-Praga": {
+    "departures": [],
+    "car_hours": 27.724,
+    "origin_timezone_offset": 0.0,
+    "destination_timezone_offset": 1.0,
+    "source_mode": "synthetic"
+  },
+  "Lisboa-Berlín": {
+    "departures": [],
+    "car_hours": 28.809,
+    "origin_timezone_offset": 0.0,
+    "destination_timezone_offset": 1.0,
+    "source_mode": "synthetic"
+  },
+  "Lisboa-Roma": {
+    "departures": [],
+    "car_hours": 26.646,
+    "origin_timezone_offset": 0.0,
+    "destination_timezone_offset": 1.0,
+    "source_mode": "synthetic"
+  },
+  "Lisboa-Milán": {
+    "departures": [],
+    "car_hours": 22.629,
+    "origin_timezone_offset": 0.0,
+    "destination_timezone_offset": 1.0,
+    "source_mode": "synthetic"
+  },
+  "Lisboa-Zúrich": {
+    "departures": [],
+    "car_hours": 22.4,
+    "origin_timezone_offset": 0.0,
+    "destination_timezone_offset": 1.0,
+    "source_mode": "synthetic"
+  },
+  "Lisboa-Budapest": {
+    "departures": [],
+    "car_hours": 32.012,
+    "origin_timezone_offset": 0.0,
+    "destination_timezone_offset": 1.0,
+    "source_mode": "synthetic"
+  },
+  "Budapest-Madrid": {
+    "departures": [],
+    "car_hours": 26.439,
+    "origin_timezone_offset": 1.0,
+    "destination_timezone_offset": 1.0,
+    "source_mode": "synthetic"
+  },
+  "Budapest-Barcelona": {
+    "departures": [],
+    "car_hours": 20.178,
+    "origin_timezone_offset": 1.0,
+    "destination_timezone_offset": 1.0,
+    "source_mode": "synthetic"
+  },
+  "Budapest-París": {
+    "departures": [],
+    "car_hours": 14.886,
+    "origin_timezone_offset": 1.0,
+    "destination_timezone_offset": 1.0,
+    "source_mode": "synthetic"
+  },
+  "Budapest-Amsterdam": {
+    "departures": [],
+    "car_hours": 14.082,
+    "origin_timezone_offset": 1.0,
+    "destination_timezone_offset": 1.0,
+    "source_mode": "synthetic"
+  },
+  "Budapest-Bruselas": {
+    "departures": [],
+    "car_hours": 13.577,
+    "origin_timezone_offset": 1.0,
+    "destination_timezone_offset": 1.0,
+    "source_mode": "synthetic"
+  },
+  "Budapest-Frankfurt": {
+    "departures": [],
+    "car_hours": 9.581,
+    "origin_timezone_offset": 1.0,
+    "destination_timezone_offset": 1.0,
+    "source_mode": "synthetic"
+  },
+  "Budapest-Múnich": {
+    "departures": [
+      {
+        "depart": 6.0,
+        "arrive": 8.91,
+        "duration_h": 2.91,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 8.5,
+        "arrive": 11.41,
+        "duration_h": 2.91,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 12.0,
+        "arrive": 14.91,
+        "duration_h": 2.91,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 16.0,
+        "arrive": 18.91,
+        "duration_h": 2.91,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 19.5,
+        "arrive": 22.41,
+        "duration_h": 2.91,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      }
+    ],
+    "car_hours": 6.811,
+    "origin_timezone_offset": 1.0,
+    "destination_timezone_offset": 1.0,
+    "source_mode": "synthetic"
+  },
+  "Budapest-Viena": {
+    "departures": [
+      {
+        "depart": 6.0,
+        "arrive": 7.21,
+        "duration_h": 1.21,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 8.5,
+        "arrive": 9.71,
+        "duration_h": 1.21,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 12.0,
+        "arrive": 13.21,
+        "duration_h": 1.21,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 16.0,
+        "arrive": 17.21,
+        "duration_h": 1.21,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 19.5,
+        "arrive": 20.71,
+        "duration_h": 1.21,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      }
+    ],
+    "car_hours": 2.629,
+    "origin_timezone_offset": 1.0,
+    "destination_timezone_offset": 1.0,
+    "source_mode": "synthetic"
+  },
+  "Budapest-Praga": {
+    "departures": [
+      {
+        "depart": 6.0,
+        "arrive": 8.37,
+        "duration_h": 2.37,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 8.5,
+        "arrive": 10.87,
+        "duration_h": 2.37,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 12.0,
+        "arrive": 14.37,
+        "duration_h": 2.37,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 16.0,
+        "arrive": 18.37,
+        "duration_h": 2.37,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 19.5,
+        "arrive": 21.87,
+        "duration_h": 2.37,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      }
+    ],
+    "car_hours": 5.331,
+    "origin_timezone_offset": 1.0,
+    "destination_timezone_offset": 1.0,
+    "source_mode": "synthetic"
+  },
+  "Budapest-Berlín": {
+    "departures": [
+      {
+        "depart": 6.0,
+        "arrive": 9.48,
+        "duration_h": 3.48,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 8.5,
+        "arrive": 11.98,
+        "duration_h": 3.48,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 12.0,
+        "arrive": 15.48,
+        "duration_h": 3.48,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 16.0,
+        "arrive": 19.48,
+        "duration_h": 3.48,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "depart": 19.5,
+        "arrive": 22.98,
+        "duration_h": 3.48,
+        "operator": "DB/SNCF/Local",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      }
+    ],
+    "car_hours": 9.077,
+    "origin_timezone_offset": 1.0,
+    "destination_timezone_offset": 1.0,
+    "source_mode": "synthetic"
+  },
+  "Budapest-Roma": {
+    "departures": [],
+    "car_hours": 12.539,
+    "origin_timezone_offset": 1.0,
+    "destination_timezone_offset": 1.0,
+    "source_mode": "synthetic"
+  },
+  "Budapest-Milán": {
+    "departures": [],
+    "car_hours": 10.008,
+    "origin_timezone_offset": 1.0,
+    "destination_timezone_offset": 1.0,
+    "source_mode": "synthetic"
+  },
+  "Budapest-Zúrich": {
+    "departures": [],
+    "car_hours": 10.193,
+    "origin_timezone_offset": 1.0,
+    "destination_timezone_offset": 1.0,
+    "source_mode": "synthetic"
+  },
+  "Budapest-Lisboa": {
+    "departures": [],
+    "car_hours": 32.082,
+    "origin_timezone_offset": 1.0,
+    "destination_timezone_offset": 0.0,
+    "source_mode": "synthetic"
+  }
+}

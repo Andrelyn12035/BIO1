@@ -1,0 +1,16 @@
+origin,destination,departure_abs,arrival_abs,arrival_local,modal,duration_h
+Madrid,Lisboa,9.0,15.83,15.83,car,6.83
+Lisboa,París,23.83,42.14,19.14,car,18.31
+París,Bruselas,52.14,55.8,8.8,car,3.66
+Bruselas,Amsterdam,61.8,64.47,17.47,car,2.67
+Amsterdam,Frankfurt,72.47,77.18,6.18,car,4.72
+Frankfurt,Berlín,83.18,88.81,17.81,car,5.62
+Berlín,Praga,98.81,102.62,7.62,car,3.82
+Praga,Budapest,110.62,115.97,20.97,car,5.35
+Budapest,Viena,123.97,126.6,7.6,car,2.63
+Viena,Múnich,136.6,140.96,21.96,car,4.36
+Múnich,Zúrich,148.96,152.54,9.54,car,3.58
+Zúrich,Milán,158.54,162.09,19.09,car,3.56
+Milán,Roma,168.09,174.05,7.05,car,5.96
+Roma,Barcelona,184.05,198.73,7.73,car,14.68
+Barcelona,Madrid,206.73,213.6,22.6,car,6.87

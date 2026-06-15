@@ -1,0 +1,868 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_9474635b7c64cb360e10dede250a69c6 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+    <div style="position: fixed; bottom: 32px; left: 32px; z-index: 9999; background: white;
+                padding: 12px 16px; border: 2px solid #444; border-radius: 10px;
+                font-size: 13px; box-shadow: 0 4px 20px rgba(0,0,0,0.15); min-width: 200px;">
+      <div style="font-weight: 700; margin-bottom: 8px; font-size: 14px;">experiment_1_restricciones</div>
+      <div style="margin-bottom: 4px;">
+        <span style="display:inline-block;width:24px;height:4px;background:#1a56db;margin-right:8px;vertical-align:middle;"></span>Tren
+      </div>
+      <div style="margin-bottom: 8px;">
+        <span style="display:inline-block;width:24px;height:4px;background:#e02424;margin-right:8px;vertical-align:middle;border-top: 4px dashed #e02424;"></span>Auto (ruta real OSRM)
+      </div>
+      <div style="border-top: 1px solid #ddd; padding-top: 6px;">
+        Tiempo total: <b>203.9 h</b><br>
+        Penalización: <b>7.3</b>
+      </div>
+    </div>
+    
+    
+            <div class="folium-map" id="map_9474635b7c64cb360e10dede250a69c6" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_9474635b7c64cb360e10dede250a69c6 = L.map(
+                "map_9474635b7c64cb360e10dede250a69c6",
+                {
+                    center: [46.926093333333334, 7.645546666666666],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 4,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_44bb28b27f76f73dcad0843adfd46b98 = L.tileLayer(
+                "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 20,
+  "maxNativeZoom": 20,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"https://carto.com/attributions\"\u003eCARTO\u003c/a\u003e",
+  "subdomains": "abcd",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_44bb28b27f76f73dcad0843adfd46b98.addTo(map_9474635b7c64cb360e10dede250a69c6);
+        
+    
+            var marker_994833057f9fcdd3f504b9bf62c08b12 = L.marker(
+                [38.7223, -9.1393],
+                {
+}
+            ).addTo(map_9474635b7c64cb360e10dede250a69c6);
+        
+    
+        var popup_3c608b008cec3bb8d89f1e72a5f2330c = L.popup({
+  "maxWidth": 340,
+});
+
+        
+            
+                var html_bdc8e7afa549b354a9203b421c2d5773 = $(`<div id="html_bdc8e7afa549b354a9203b421c2d5773" style="width: 100.0%; height: 100.0%;"><b>Lisboa</b><br>Llegada: día 1 a las 13.6 h (local)<br>Hora abs.: 13.64 h<br>Modal: train<br>Estancia mínima: 8.0 h<br>Listo para salir: 21.64 h</div>`)[0];
+                popup_3c608b008cec3bb8d89f1e72a5f2330c.setContent(html_bdc8e7afa549b354a9203b421c2d5773);
+            
+        
+
+        marker_994833057f9fcdd3f504b9bf62c08b12.bindPopup(popup_3c608b008cec3bb8d89f1e72a5f2330c)
+        ;
+
+        
+    
+    
+            marker_994833057f9fcdd3f504b9bf62c08b12.bindTooltip(
+                `<div>
+                     Lisboa (train)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_0add02adc2022fa75fdc792c9faa7a44 = L.marker(
+                [48.8566, 2.3522],
+                {
+}
+            ).addTo(map_9474635b7c64cb360e10dede250a69c6);
+        
+    
+        var popup_d83c787aa243525ef01e8a457ee76037 = L.popup({
+  "maxWidth": 340,
+});
+
+        
+            
+                var html_f5d8ac9d66ecdb4763f734cd34150474 = $(`<div id="html_f5d8ac9d66ecdb4763f734cd34150474" style="width: 100.0%; height: 100.0%;"><b>París</b><br>Llegada: día 2 a las 16.9 h (local)<br>Hora abs.: 39.95 h<br>Modal: car<br>Estancia mínima: 10.0 h<br>Listo para salir: 49.95 h</div>`)[0];
+                popup_d83c787aa243525ef01e8a457ee76037.setContent(html_f5d8ac9d66ecdb4763f734cd34150474);
+            
+        
+
+        marker_0add02adc2022fa75fdc792c9faa7a44.bindPopup(popup_d83c787aa243525ef01e8a457ee76037)
+        ;
+
+        
+    
+    
+            marker_0add02adc2022fa75fdc792c9faa7a44.bindTooltip(
+                `<div>
+                     París (car)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_b77cf70efd5f0a28bd42dbef531e7bf2 = L.marker(
+                [50.8503, 4.3517],
+                {
+}
+            ).addTo(map_9474635b7c64cb360e10dede250a69c6);
+        
+    
+        var popup_e466cd538b10df50efe9ef7270eb2e72 = L.popup({
+  "maxWidth": 340,
+});
+
+        
+            
+                var html_79608dbe5696735b4da8d2f1cdf8cdc5 = $(`<div id="html_79608dbe5696735b4da8d2f1cdf8cdc5" style="width: 100.0%; height: 100.0%;"><b>Bruselas</b><br>Llegada: día 3 a las 9.0 h (local)<br>Hora abs.: 56.00 h<br>Modal: car<br>Estancia mínima: 6.0 h<br>Listo para salir: 62.00 h</div>`)[0];
+                popup_e466cd538b10df50efe9ef7270eb2e72.setContent(html_79608dbe5696735b4da8d2f1cdf8cdc5);
+            
+        
+
+        marker_b77cf70efd5f0a28bd42dbef531e7bf2.bindPopup(popup_e466cd538b10df50efe9ef7270eb2e72)
+        ;
+
+        
+    
+    
+            marker_b77cf70efd5f0a28bd42dbef531e7bf2.bindTooltip(
+                `<div>
+                     Bruselas (car)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_4964df5c06bf6e31e3c80183a1b619f7 = L.marker(
+                [52.3676, 4.9041],
+                {
+}
+            ).addTo(map_9474635b7c64cb360e10dede250a69c6);
+        
+    
+        var popup_25702a808284e707c7d79c3632634d78 = L.popup({
+  "maxWidth": 340,
+});
+
+        
+            
+                var html_c64adef2da9a317185396149eb48185d = $(`<div id="html_c64adef2da9a317185396149eb48185d" style="width: 100.0%; height: 100.0%;"><b>Amsterdam</b><br>Llegada: día 3 a las 17.1 h (local)<br>Hora abs.: 64.14 h<br>Modal: train<br>Estancia mínima: 8.0 h<br>Listo para salir: 72.14 h</div>`)[0];
+                popup_25702a808284e707c7d79c3632634d78.setContent(html_c64adef2da9a317185396149eb48185d);
+            
+        
+
+        marker_4964df5c06bf6e31e3c80183a1b619f7.bindPopup(popup_25702a808284e707c7d79c3632634d78)
+        ;
+
+        
+    
+    
+            marker_4964df5c06bf6e31e3c80183a1b619f7.bindTooltip(
+                `<div>
+                     Amsterdam (train)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_78441b1f8afb39cd76a1aac214a97360 = L.marker(
+                [50.1109, 8.6821],
+                {
+}
+            ).addTo(map_9474635b7c64cb360e10dede250a69c6);
+        
+    
+        var popup_2063b88dea9fcfeaaa3d7acc213649e7 = L.popup({
+  "maxWidth": 340,
+});
+
+        
+            
+                var html_509aa3fa40029f83e4c8b63cfe85aab8 = $(`<div id="html_509aa3fa40029f83e4c8b63cfe85aab8" style="width: 100.0%; height: 100.0%;"><b>Frankfurt</b><br>Llegada: día 4 a las 9.0 h (local)<br>Hora abs.: 80.00 h<br>Modal: car<br>Estancia mínima: 6.0 h<br>Listo para salir: 86.00 h</div>`)[0];
+                popup_2063b88dea9fcfeaaa3d7acc213649e7.setContent(html_509aa3fa40029f83e4c8b63cfe85aab8);
+            
+        
+
+        marker_78441b1f8afb39cd76a1aac214a97360.bindPopup(popup_2063b88dea9fcfeaaa3d7acc213649e7)
+        ;
+
+        
+    
+    
+            marker_78441b1f8afb39cd76a1aac214a97360.bindTooltip(
+                `<div>
+                     Frankfurt (car)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_03e16f5f0ab85e41612030f9ecef2f00 = L.marker(
+                [52.52, 13.405],
+                {
+}
+            ).addTo(map_9474635b7c64cb360e10dede250a69c6);
+        
+    
+        var popup_3bda1d64291e480496cd706a97b93352 = L.popup({
+  "maxWidth": 340,
+});
+
+        
+            
+                var html_d0892b82daacdb8dc99e2435eda9918f = $(`<div id="html_d0892b82daacdb8dc99e2435eda9918f" style="width: 100.0%; height: 100.0%;"><b>Berlín</b><br>Llegada: día 4 a las 18.3 h (local)<br>Hora abs.: 89.28 h<br>Modal: train<br>Estancia mínima: 10.0 h<br>Listo para salir: 99.28 h</div>`)[0];
+                popup_3bda1d64291e480496cd706a97b93352.setContent(html_d0892b82daacdb8dc99e2435eda9918f);
+            
+        
+
+        marker_03e16f5f0ab85e41612030f9ecef2f00.bindPopup(popup_3bda1d64291e480496cd706a97b93352)
+        ;
+
+        
+    
+    
+            marker_03e16f5f0ab85e41612030f9ecef2f00.bindTooltip(
+                `<div>
+                     Berlín (train)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_135958d77da64cfb97c6f1170f2281f6 = L.marker(
+                [50.0755, 14.4378],
+                {
+}
+            ).addTo(map_9474635b7c64cb360e10dede250a69c6);
+        
+    
+        var popup_b1d23a3ffe7a80047fad17408c1d1869 = L.popup({
+  "maxWidth": 340,
+});
+
+        
+            
+                var html_a5e98f1ca08c94d9a75f370e29f55ce0 = $(`<div id="html_a5e98f1ca08c94d9a75f370e29f55ce0" style="width: 100.0%; height: 100.0%;"><b>Praga</b><br>Llegada: día 5 a las 9.0 h (local)<br>Hora abs.: 104.00 h<br>Modal: train<br>Estancia mínima: 8.0 h<br>Listo para salir: 112.00 h</div>`)[0];
+                popup_b1d23a3ffe7a80047fad17408c1d1869.setContent(html_a5e98f1ca08c94d9a75f370e29f55ce0);
+            
+        
+
+        marker_135958d77da64cfb97c6f1170f2281f6.bindPopup(popup_b1d23a3ffe7a80047fad17408c1d1869)
+        ;
+
+        
+    
+    
+            marker_135958d77da64cfb97c6f1170f2281f6.bindTooltip(
+                `<div>
+                     Praga (train)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_f4fc8795453194b947c3f62ef406818d = L.marker(
+                [47.4979, 19.0402],
+                {
+}
+            ).addTo(map_9474635b7c64cb360e10dede250a69c6);
+        
+    
+        var popup_22c3550d05bea1106c423fee4c11171f = L.popup({
+  "maxWidth": 340,
+});
+
+        
+            
+                var html_28c1be52e00ad614728472e7369b52ef = $(`<div id="html_28c1be52e00ad614728472e7369b52ef" style="width: 100.0%; height: 100.0%;"><b>Budapest</b><br>Llegada: día 5 a las 21.9 h (local)<br>Hora abs.: 116.87 h<br>Modal: train<br>Estancia mínima: 8.0 h<br>Listo para salir: 124.87 h</div>`)[0];
+                popup_22c3550d05bea1106c423fee4c11171f.setContent(html_28c1be52e00ad614728472e7369b52ef);
+            
+        
+
+        marker_f4fc8795453194b947c3f62ef406818d.bindPopup(popup_22c3550d05bea1106c423fee4c11171f)
+        ;
+
+        
+    
+    
+            marker_f4fc8795453194b947c3f62ef406818d.bindTooltip(
+                `<div>
+                     Budapest (train)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_b4c761969d30c6ca6c07bd6c1e6d1ae0 = L.marker(
+                [48.2082, 16.3738],
+                {
+}
+            ).addTo(map_9474635b7c64cb360e10dede250a69c6);
+        
+    
+        var popup_d9c7664841c47ceaf2c39456c0a374ed = L.popup({
+  "maxWidth": 340,
+});
+
+        
+            
+                var html_12408e54052dda930e3e4164c9862c80 = $(`<div id="html_12408e54052dda930e3e4164c9862c80" style="width: 100.0%; height: 100.0%;"><b>Viena</b><br>Llegada: día 6 a las 9.0 h (local)<br>Hora abs.: 128.00 h<br>Modal: car<br>Estancia mínima: 10.0 h<br>Listo para salir: 138.00 h</div>`)[0];
+                popup_d9c7664841c47ceaf2c39456c0a374ed.setContent(html_12408e54052dda930e3e4164c9862c80);
+            
+        
+
+        marker_b4c761969d30c6ca6c07bd6c1e6d1ae0.bindPopup(popup_d9c7664841c47ceaf2c39456c0a374ed)
+        ;
+
+        
+    
+    
+            marker_b4c761969d30c6ca6c07bd6c1e6d1ae0.bindTooltip(
+                `<div>
+                     Viena (car)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_64bc76fa29b8d3fd786afad738ede9c2 = L.marker(
+                [48.1351, 11.582],
+                {
+}
+            ).addTo(map_9474635b7c64cb360e10dede250a69c6);
+        
+    
+        var popup_c69156d9045646abfe1722e0b915eb40 = L.popup({
+  "maxWidth": 340,
+});
+
+        
+            
+                var html_c7fd97203353ab1e47d9ca4810d488f1 = $(`<div id="html_c7fd97203353ab1e47d9ca4810d488f1" style="width: 100.0%; height: 100.0%;"><b>Múnich</b><br>Llegada: día 6 a las 21.3 h (local)<br>Hora abs.: 140.27 h<br>Modal: train<br>Estancia mínima: 8.0 h<br>Listo para salir: 148.27 h</div>`)[0];
+                popup_c69156d9045646abfe1722e0b915eb40.setContent(html_c7fd97203353ab1e47d9ca4810d488f1);
+            
+        
+
+        marker_64bc76fa29b8d3fd786afad738ede9c2.bindPopup(popup_c69156d9045646abfe1722e0b915eb40)
+        ;
+
+        
+    
+    
+            marker_64bc76fa29b8d3fd786afad738ede9c2.bindTooltip(
+                `<div>
+                     Múnich (train)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_7b7519bb0a833c723dfa6decb6370864 = L.marker(
+                [47.3769, 8.5417],
+                {
+}
+            ).addTo(map_9474635b7c64cb360e10dede250a69c6);
+        
+    
+        var popup_f6e33d19883c54a9113a6744a2daf7b6 = L.popup({
+  "maxWidth": 340,
+});
+
+        
+            
+                var html_505e485deeef12e554e536e086f4349f = $(`<div id="html_505e485deeef12e554e536e086f4349f" style="width: 100.0%; height: 100.0%;"><b>Zúrich</b><br>Llegada: día 7 a las 9.0 h (local)<br>Hora abs.: 152.00 h<br>Modal: train<br>Estancia mínima: 6.0 h<br>Listo para salir: 158.00 h</div>`)[0];
+                popup_f6e33d19883c54a9113a6744a2daf7b6.setContent(html_505e485deeef12e554e536e086f4349f);
+            
+        
+
+        marker_7b7519bb0a833c723dfa6decb6370864.bindPopup(popup_f6e33d19883c54a9113a6744a2daf7b6)
+        ;
+
+        
+    
+    
+            marker_7b7519bb0a833c723dfa6decb6370864.bindTooltip(
+                `<div>
+                     Zúrich (train)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_47b5519578ebdf09ea2bd715472acf3b = L.marker(
+                [45.4654, 9.1859],
+                {
+}
+            ).addTo(map_9474635b7c64cb360e10dede250a69c6);
+        
+    
+        var popup_5842361c701d07c067dba96290696a02 = L.popup({
+  "maxWidth": 340,
+});
+
+        
+            
+                var html_2c4ef6e9f0a174f777fdbb829a9f1c7e = $(`<div id="html_2c4ef6e9f0a174f777fdbb829a9f1c7e" style="width: 100.0%; height: 100.0%;"><b>Milán</b><br>Llegada: día 7 a las 17.3 h (local)<br>Hora abs.: 160.34 h<br>Modal: train<br>Estancia mínima: 6.0 h<br>Listo para salir: 166.34 h</div>`)[0];
+                popup_5842361c701d07c067dba96290696a02.setContent(html_2c4ef6e9f0a174f777fdbb829a9f1c7e);
+            
+        
+
+        marker_47b5519578ebdf09ea2bd715472acf3b.bindPopup(popup_5842361c701d07c067dba96290696a02)
+        ;
+
+        
+    
+    
+            marker_47b5519578ebdf09ea2bd715472acf3b.bindTooltip(
+                `<div>
+                     Milán (train)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_b9d0e6246e55110f3c36ed622491e530 = L.marker(
+                [41.9028, 12.4964],
+                {
+}
+            ).addTo(map_9474635b7c64cb360e10dede250a69c6);
+        
+    
+        var popup_a35b6d4ec76ecbc35dc9fae8010e16a0 = L.popup({
+  "maxWidth": 340,
+});
+
+        
+            
+                var html_aa994cb5026bfecf57dc41220040c87c = $(`<div id="html_aa994cb5026bfecf57dc41220040c87c" style="width: 100.0%; height: 100.0%;"><b>Roma</b><br>Llegada: día 8 a las 8.0 h (local)<br>Hora abs.: 175.00 h<br>Modal: car<br>Estancia mínima: 10.0 h<br>Listo para salir: 185.00 h</div>`)[0];
+                popup_a35b6d4ec76ecbc35dc9fae8010e16a0.setContent(html_aa994cb5026bfecf57dc41220040c87c);
+            
+        
+
+        marker_b9d0e6246e55110f3c36ed622491e530.bindPopup(popup_a35b6d4ec76ecbc35dc9fae8010e16a0)
+        ;
+
+        
+    
+    
+            marker_b9d0e6246e55110f3c36ed622491e530.bindTooltip(
+                `<div>
+                     Roma (car)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_302d344da0040e2cc298566abfe0a042 = L.marker(
+                [41.3851, 2.1734],
+                {
+}
+            ).addTo(map_9474635b7c64cb360e10dede250a69c6);
+        
+    
+        var popup_be95304e0e0cf5eaf05b1fc35fe699b1 = L.popup({
+  "maxWidth": 340,
+});
+
+        
+            
+                var html_7fe764fd68b803184d4594e84710f85b = $(`<div id="html_7fe764fd68b803184d4594e84710f85b" style="width: 100.0%; height: 100.0%;"><b>Barcelona</b><br>Llegada: día 9 a las 9.0 h (local)<br>Hora abs.: 200.00 h<br>Modal: car<br>Estancia mínima: 8.0 h<br>Listo para salir: 208.00 h</div>`)[0];
+                popup_be95304e0e0cf5eaf05b1fc35fe699b1.setContent(html_7fe764fd68b803184d4594e84710f85b);
+            
+        
+
+        marker_302d344da0040e2cc298566abfe0a042.bindPopup(popup_be95304e0e0cf5eaf05b1fc35fe699b1)
+        ;
+
+        
+    
+    
+            marker_302d344da0040e2cc298566abfe0a042.bindTooltip(
+                `<div>
+                     Barcelona (car)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_0fdfccf483244323bf3ec4590e80f014 = L.marker(
+                [40.4168, -3.7038],
+                {
+}
+            ).addTo(map_9474635b7c64cb360e10dede250a69c6);
+        
+    
+        var popup_4da6ba8688299291fc1b8b55c2d5b545 = L.popup({
+  "maxWidth": 340,
+});
+
+        
+            
+                var html_05656bea744bfca31bacb2d4c770e82b = $(`<div id="html_05656bea744bfca31bacb2d4c770e82b" style="width: 100.0%; height: 100.0%;"><b>Madrid</b><br>Llegada: día 9 a las 21.9 h (local)<br>Hora abs.: 212.87 h<br>Modal: train<br>Estancia mínima: 8.0 h<br>Listo para salir: 212.87 h</div>`)[0];
+                popup_4da6ba8688299291fc1b8b55c2d5b545.setContent(html_05656bea744bfca31bacb2d4c770e82b);
+            
+        
+
+        marker_0fdfccf483244323bf3ec4590e80f014.bindPopup(popup_4da6ba8688299291fc1b8b55c2d5b545)
+        ;
+
+        
+    
+    
+            marker_0fdfccf483244323bf3ec4590e80f014.bindTooltip(
+                `<div>
+                     Madrid (train)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_423beb0f2578db8bb82642de461ad44e = L.polyline(
+                [[40.4168, -3.7038], [38.7223, -9.1393]],
+                {"bubblingMouseEvents": true, "color": "#1a56db", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#1a56db", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.85, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(map_9474635b7c64cb360e10dede250a69c6);
+        
+    
+            poly_line_423beb0f2578db8bb82642de461ad44e.bindTooltip(
+                `<div>
+                     Madrid → Lisboa (train)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_f7cbb0488c7e892a61b30e4bbdc8d140 = L.polyline(
+                [[38.722306, -9.139301], [39.477789, -8.629135], [39.568229, -7.787323], [39.851236, -7.502922], [40.224172, -7.491203], [40.569523, -7.21435], [40.583149, -6.541607], [41.010165, -5.591971], [41.973903, -4.44993], [42.709087, -2.871235], [43.285645, -2.355649], [43.283601, -1.912604], [43.47769, -1.448726], [44.019539, -1.016227], [44.648181, -0.836894], [44.983609, -0.428311], [45.755309, -0.67208], [46.170379, -0.509618], [46.553937, 0.282502], [47.470241, 0.76975], [47.903264, 1.847189], [48.540447, 1.905217], [48.857243, 2.352316]],
+                {"bubblingMouseEvents": true, "color": "#e02424", "dashArray": "8 4", "dashOffset": null, "fill": false, "fillColor": "#e02424", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.85, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_9474635b7c64cb360e10dede250a69c6);
+        
+    
+            poly_line_f7cbb0488c7e892a61b30e4bbdc8d140.bindTooltip(
+                `<div>
+                     Lisboa → París (car)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_72f3742b15833a8bde7ebb133877f7d8 = L.polyline(
+                [[48.857243, 2.352316], [48.927643, 2.357453], [48.944262, 2.437593], [49.001383, 2.523141], [49.129731, 2.559102], [49.162472, 2.597744], [49.205855, 2.611369], [49.274067, 2.695529], [49.446296, 2.697276], [50.023041, 2.886215], [50.084071, 3.035096], [50.250241, 3.316859], [50.305498, 3.378457], [50.339117, 3.461018], [50.339023, 3.56356], [50.437703, 3.6653], [50.454227, 3.908851], [50.4919, 3.988863], [50.480898, 4.059582], [50.503101, 4.161938], [50.56081, 4.288026], [50.668578, 4.31126], [50.713764, 4.266505], [50.800722, 4.307345], [50.845162, 4.281729], [50.865996, 4.320024], [50.850338, 4.351767]],
+                {"bubblingMouseEvents": true, "color": "#e02424", "dashArray": "8 4", "dashOffset": null, "fill": false, "fillColor": "#e02424", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.85, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_9474635b7c64cb360e10dede250a69c6);
+        
+    
+            poly_line_72f3742b15833a8bde7ebb133877f7d8.bindTooltip(
+                `<div>
+                     París → Bruselas (car)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_02819fbb438a74f76f4bf963e2766531 = L.polyline(
+                [[50.8503, 4.3517], [52.3676, 4.9041]],
+                {"bubblingMouseEvents": true, "color": "#1a56db", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#1a56db", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.85, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(map_9474635b7c64cb360e10dede250a69c6);
+        
+    
+            poly_line_02819fbb438a74f76f4bf963e2766531.bindTooltip(
+                `<div>
+                     Bruselas → Amsterdam (train)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_ffcde4d6b0312bc9149384738e11a451 = L.polyline(
+                [[52.367616, 4.904134], [52.335953, 4.941396], [52.350126, 4.965145], [52.303501, 5.167118], [52.225681, 5.250791], [52.205638, 5.382037], [52.167894, 5.445539], [52.165504, 5.565637], [52.023048, 5.613637], [52.014152, 5.932957], [51.870737, 6.203459], [51.817565, 6.439395], [51.743664, 6.603766], [51.539129, 6.83061], [51.417925, 6.797027], [51.318235, 6.897623], [50.987056, 7.013654], [50.923966, 7.060243], [50.858067, 7.213298], [50.680774, 7.280082], [50.582453, 7.467272], [50.52208, 7.690208], [50.448469, 7.78317], [50.452988, 7.89622], [50.413576, 7.9334], [50.402545, 8.061819], [50.325586, 8.216541], [50.197878, 8.25611], [50.054624, 8.386987], [50.055822, 8.447966], [50.128558, 8.568048], [50.110913, 8.682092]],
+                {"bubblingMouseEvents": true, "color": "#e02424", "dashArray": "8 4", "dashOffset": null, "fill": false, "fillColor": "#e02424", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.85, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_9474635b7c64cb360e10dede250a69c6);
+        
+    
+            poly_line_ffcde4d6b0312bc9149384738e11a451.bindTooltip(
+                `<div>
+                     Amsterdam → Frankfurt (car)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_696500054db8d6263f74196cdda809a0 = L.polyline(
+                [[50.1109, 8.6821], [52.52, 13.405]],
+                {"bubblingMouseEvents": true, "color": "#1a56db", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#1a56db", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.85, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(map_9474635b7c64cb360e10dede250a69c6);
+        
+    
+            poly_line_696500054db8d6263f74196cdda809a0.bindTooltip(
+                `<div>
+                     Frankfurt → Berlín (train)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_350f56225ecedbd82d47c9418a28ca24 = L.polyline(
+                [[52.52, 13.405], [50.0755, 14.4378]],
+                {"bubblingMouseEvents": true, "color": "#1a56db", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#1a56db", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.85, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(map_9474635b7c64cb360e10dede250a69c6);
+        
+    
+            poly_line_350f56225ecedbd82d47c9418a28ca24.bindTooltip(
+                `<div>
+                     Berlín → Praga (train)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_04845260fdf9b9fa422c7f744f0afd0d = L.polyline(
+                [[50.0755, 14.4378], [47.4979, 19.0402]],
+                {"bubblingMouseEvents": true, "color": "#1a56db", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#1a56db", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.85, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(map_9474635b7c64cb360e10dede250a69c6);
+        
+    
+            poly_line_04845260fdf9b9fa422c7f744f0afd0d.bindTooltip(
+                `<div>
+                     Praga → Budapest (train)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_31c852bca0b7093940d694852e3188a2 = L.polyline(
+                [[47.498091, 19.040466], [47.490357, 19.044994], [47.487648, 19.024989], [47.465173, 19.01441], [47.452311, 18.954452], [47.454142, 18.905896], [47.49449, 18.819584], [47.510489, 18.741935], [47.509313, 18.616826], [47.493435, 18.572357], [47.526578, 18.505203], [47.574483, 18.469232], [47.578318, 18.415018], [47.599711, 18.387138], [47.621026, 18.330848], [47.627274, 18.266344], [47.659766, 18.181851], [47.67425, 18.107876], [47.683078, 18.011642], [47.679149, 17.934417], [47.68655, 17.80717], [47.633815, 17.675599], [47.642623, 17.6234], [47.795363, 17.31675], [47.857322, 17.240931], [47.900006, 17.168654], [47.927995, 17.10172], [47.918531, 17.058394], [47.925097, 17.011073], [47.944534, 16.939867], [47.964294, 16.90391], [47.976012, 16.848097], [47.989184, 16.833359], [48.020999, 16.83723], [48.031281, 16.828486], [48.059295, 16.707429], [48.118666, 16.624906], [48.133581, 16.534519], [48.153319, 16.481146], [48.183399, 16.448176], [48.206073, 16.398018], [48.207818, 16.373724]],
+                {"bubblingMouseEvents": true, "color": "#e02424", "dashArray": "8 4", "dashOffset": null, "fill": false, "fillColor": "#e02424", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.85, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_9474635b7c64cb360e10dede250a69c6);
+        
+    
+            poly_line_31c852bca0b7093940d694852e3188a2.bindTooltip(
+                `<div>
+                     Budapest → Viena (car)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_bb9ad5a201a70de5ba3284896a454950 = L.polyline(
+                [[48.2082, 16.3738], [48.1351, 11.582]],
+                {"bubblingMouseEvents": true, "color": "#1a56db", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#1a56db", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.85, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(map_9474635b7c64cb360e10dede250a69c6);
+        
+    
+            poly_line_bb9ad5a201a70de5ba3284896a454950.bindTooltip(
+                `<div>
+                     Viena → Múnich (train)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_0abc185236d2ce964c1c9940740ebec5 = L.polyline(
+                [[48.1351, 11.582], [47.3769, 8.5417]],
+                {"bubblingMouseEvents": true, "color": "#1a56db", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#1a56db", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.85, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(map_9474635b7c64cb360e10dede250a69c6);
+        
+    
+            poly_line_0abc185236d2ce964c1c9940740ebec5.bindTooltip(
+                `<div>
+                     Múnich → Zúrich (train)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_6a1d659c1d61faeadf44b36d043cb32f = L.polyline(
+                [[47.3769, 8.5417], [45.4654, 9.1859]],
+                {"bubblingMouseEvents": true, "color": "#1a56db", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#1a56db", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.85, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(map_9474635b7c64cb360e10dede250a69c6);
+        
+    
+            poly_line_6a1d659c1d61faeadf44b36d043cb32f.bindTooltip(
+                `<div>
+                     Zúrich → Milán (train)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_8d46f5cc0c35791c7c35751d394473d0 = L.polyline(
+                [[45.465164, 9.186125], [45.006688, 9.797899], [44.89555, 10.050299], [44.837148, 10.34988], [44.665444, 10.850485], [44.616823, 10.888365], [44.469971, 11.273187], [44.340785, 11.267775], [44.265645, 11.187087], [44.132515, 11.1923], [44.06012, 11.244911], [43.929516, 11.222895], [43.825473, 11.151624], [43.747715, 11.172236], [43.719676, 11.23741], [43.72937, 11.372026], [43.557381, 11.543481], [43.440787, 11.774014], [43.2502, 11.771489], [42.930898, 11.958064], [42.860234, 12.037895], [42.772327, 12.049936], [42.693924, 12.206342], [42.525716, 12.263398], [42.447133, 12.415956], [42.290865, 12.499615], [42.235043, 12.59128], [42.158696, 12.615822], [42.069117, 12.535991], [41.902866, 12.496497]],
+                {"bubblingMouseEvents": true, "color": "#e02424", "dashArray": "8 4", "dashOffset": null, "fill": false, "fillColor": "#e02424", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.85, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_9474635b7c64cb360e10dede250a69c6);
+        
+    
+            poly_line_8d46f5cc0c35791c7c35751d394473d0.bindTooltip(
+                `<div>
+                     Milán → Roma (car)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_1ccf9f7b0a10bf00846ad7e9ffef0fdb = L.polyline(
+                [[41.902866, 12.496497], [42.069101, 12.53612], [42.162064, 12.617972], [42.235108, 12.591529], [42.291366, 12.499382], [42.447333, 12.416003], [42.525865, 12.263492], [42.693997, 12.20643], [42.772362, 12.050048], [42.860251, 12.038017], [42.930963, 11.958253], [43.250265, 11.77156], [43.441385, 11.773755], [43.557485, 11.543571], [43.689187, 11.44263], [43.730029, 11.370349], [43.731646, 11.190187], [43.836975, 11.161094], [43.910993, 10.9417], [43.906654, 10.840059], [43.814766, 10.668087], [43.853504, 10.374658], [43.891769, 10.260516], [44.197926, 9.854814], [44.268076, 9.430259], [44.35911, 9.235286], [44.395772, 9.009664], [44.446524, 8.898729], [44.424367, 8.892927], [44.43371, 8.743475], [44.317783, 8.47147], [44.039493, 8.134473], [43.951666, 8.133078], [43.86882, 7.987558], [43.849498, 7.929272], [43.870403, 7.854787], [43.793299, 7.685468], [43.797063, 7.481607], [43.759303, 7.443194], [43.734628, 7.242812], [43.613079, 7.111578], [43.541552, 6.935974], [43.548201, 6.795248], [43.458391, 6.70699], [43.464207, 6.566561], [43.403257, 6.404993], [43.423733, 5.959404], [43.480098, 5.771608], [43.482217, 5.544661], [43.55204, 5.236067], [43.62845, 5.128698], [43.630078, 4.751531], [43.68436, 4.551573], [43.809926, 4.343819], [43.672566, 4.01604], [43.489042, 3.712954], [43.297677, 3.202675], [43.127183, 2.961751], [43.063216, 2.936739], [42.884133, 2.992509], [42.839197, 2.910629], [42.506116, 2.817908], [42.311729, 2.945538], [42.109541, 2.912169], [41.981077, 2.780464], [41.769245, 2.736233], [41.711443, 2.537156], [41.55558, 2.240275], [41.469489, 2.177426], [41.426194, 2.214753], [41.385621, 2.174859]],
+                {"bubblingMouseEvents": true, "color": "#e02424", "dashArray": "8 4", "dashOffset": null, "fill": false, "fillColor": "#e02424", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.85, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_9474635b7c64cb360e10dede250a69c6);
+        
+    
+            poly_line_1ccf9f7b0a10bf00846ad7e9ffef0fdb.bindTooltip(
+                `<div>
+                     Roma → Barcelona (car)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_08b31aea929c863b74ef48062349864c = L.polyline(
+                [[41.3851, 2.1734], [40.4168, -3.7038]],
+                {"bubblingMouseEvents": true, "color": "#1a56db", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#1a56db", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.85, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(map_9474635b7c64cb360e10dede250a69c6);
+        
+    
+            poly_line_08b31aea929c863b74ef48062349864c.bindTooltip(
+                `<div>
+                     Barcelona → Madrid (train)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+</script>
+</html>

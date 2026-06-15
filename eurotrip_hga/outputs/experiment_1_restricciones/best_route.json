@@ -1,0 +1,39 @@
+{
+  "route": [
+    13,
+    2,
+    4,
+    3,
+    5,
+    9,
+    8,
+    14,
+    7,
+    6,
+    12,
+    11,
+    10,
+    1
+  ],
+  "route_names": [
+    "Madrid",
+    "Lisboa",
+    "París",
+    "Bruselas",
+    "Amsterdam",
+    "Frankfurt",
+    "Berlín",
+    "Praga",
+    "Budapest",
+    "Viena",
+    "Múnich",
+    "Zúrich",
+    "Milán",
+    "Roma",
+    "Barcelona",
+    "Madrid"
+  ],
+  "fitness": 211.16000000000057,
+  "objective_hours": 203.87,
+  "penalty": 7.2900000000005525
+}
